@@ -1,0 +1,363 @@
+body,html{
+	width:100%;
+	height:100%;
+	font-size:0.597333rem;
+	font-family: "PingFangSC-Regular";
+	overflow-y: scroll;
+	box-sizing: border-box;
+}
+section{
+	width:100%;
+	text-align: center;
+	height:100%;
+	position: relative;
+	overflow-y: scroll;
+	background:#fff;
+}
+/*手机号验证是否已注册*/
+.numtestMain{
+	width:70%;
+	margin:0 auto;
+	padding-top: 1px;
+	margin-bottom:2.56rem;
+}
+.form{
+	width:12.149333rem;
+	overflow-y: hidden;
+	height:auto;
+	margin:0 auto;
+}
+.form img {
+    vertical-align: middle;
+}
+.form .form_tit{
+	text-align: center;
+	font-size:0.682667rem;
+	color:#1e4e7b;
+	margin-top:0.426667rem;
+	font-weight: normal;
+}
+.shadow{
+	height:1.152rem;
+	width:100%;
+	margin-top:-1.152rem;
+	margin-bottom:0.853333rem;
+}
+/*section 1*/
+.numMain{
+	width:13.653333rem;
+	margin:0 auto;
+	border:0;
+	box-sizing: border-box;
+}
+.numIpt{
+	width:95%;
+	margin:0 auto;
+	border-bottom:1px solid #e2e2e2;
+	box-sizing: border-box;
+	height:1.365333rem;
+	padding-bottom:0.384rem;
+}
+.numMain input.numtest,input.pstest{
+	border:0;
+	outline: none;
+	text-align: left;
+	float:left;
+}
+.numIpt input {
+    width: 11rem;
+}
+input::-webkit-input-placeholder{
+	text-align: left;
+}
+input.active::-webkit-input-placeholder{
+	color:#ee3435;
+}
+.num_nest,.code_nest,.pass_nest{
+
+
+	margin-top:2.154667rem;
+	width: 13.653333rem;
+	height:1.706667rem;
+	text-align: center;
+	line-height: 1.706667rem;
+	background: #e2e2e2;
+	border:0;
+	color:#fff;
+	font-weight: 500;
+	font-size: 0.768rem;
+	border-radius: 4px;
+	outline: none;
+}
+.num_nest{
+	margin-top: 2.154667rem;
+}
+button.come{
+	margin-top:2.154667rem;
+}
+
+button.active {
+    background-color: #0090ff;
+}
+
+/*获取验证码*/
+.code_contain{
+	height:1.365333rem;
+	width:100%;
+	position: relative;
+	border-bottom: 1px solid #e2e2e2;
+	padding-bottom: 1px;
+}
+.code_ipt{
+	width:10rem;
+	height:100%;
+	float:left;
+	box-sizing: border-box;
+}
+.code_get{
+	float:right;
+}
+.code_ipt input{
+	height:0.768rem;
+	border:0;
+	outline: none;
+	width:100%;
+	text-align: left;
+
+}
+.code_ipt input::webkit-input-placeholder{
+	letter-spacing: 3px;
+	line-height: 0.768rem;
+}
+.code_ipt input:-moz-placeholder{
+	letter-spacing: 3px;
+	line-height: 0.768rem;
+}
+span.getcode{
+	color:#fff;
+	background: #0090ff;
+	text-align: center;
+	display: block;
+	width:3.157333rem;
+	height:1.28rem;
+	border-radius: 5px;
+	line-height:1.28rem;
+	font-size: 0.584rem;
+	font-weight: 500;
+}
+/*验证码下一步*/
+/*注册成功*/
+#loginSuccess{
+	background:#f5f5f5;
+}
+.lg_main{
+	width:14.805333rem;
+	overflow-y: scroll;
+	margin:0 auto;
+	margin-top:3.072rem;
+}
+.lg_main h2{
+	font-size:1.024rem;
+	color:#222;
+	font-weight: 500;
+}
+.lg_main p{
+	font-size:0.597333rem;
+	color:#222;
+}
+.lg_youhui{
+	margin:1.066667rem 0 0.426667rem 0;
+}
+.lg_youhui b{
+	color:#0090ff;
+	font-size:0.853333rem;
+	padding:0 0.213333rem;
+}
+/*
+*
+ 注册成功*/
+ .lg_tag{
+ 	padding-top:.608rem;
+ 	width:14.848rem;
+ 	height:5.12rem;
+ 	background: url(../img/lgbg2.png) no-repeat center;
+ 	background-size:100% 100%;
+ 	margin:0 auto;
+ 	margin-top:1.061333rem;
+ }
+ .lg_tag_left{
+ 	width:9.514667rem;
+ 	height:100%;
+ 	text-align: left;
+ 	float:left;
+ 	margin-left: 1.024rem;
+ }
+ .lg_tit{
+ 	margin-top:0.213333rem;
+ 	font-size:0.682667rem;
+ 	color:#222;
+ 	font-weight: 500;
+	margin-bottom:0.32rem;
+ }
+  .lg_tag_left dl{
+  	font-size:0.469333rem;
+  	color:#9b9b9b;
+	margin-bottom:0.64rem;
+  }
+   .lg_tag_left dl dt{
+   	margin-bottom:0.853333rem;
+   }
+   /*右边10元部分*/
+ .lg_tag_right{
+ 	margin-right:.34rem;
+ 	width:3.5rem;
+ 	height:100%;
+ 	text-align: center;
+ 	line-height:4rem ;
+ 	float:right;
+ }
+
+.lg_tag_right span:first-child {
+    color: #0090ff;
+    font-size: 1rem;
+}
+
+.lg_tag_right span:last-child {
+    color: #0090ff;
+    font-size: 1.5rem;
+}
+
+
+ /*
+ *
+ *
+ *
+ * *
+  *遮罩层*/
+ .covered{
+ 	position: absolute;
+ 	top:0;
+ 	left:0;
+ 	width:100%;
+ 	height:100%;
+ 	display: none;
+ }
+ .coverbg{
+ 	opacity: 0.5;
+  	background-color: #000000;
+  	filter:alpha(opacity=50);
+  	width:100%;
+ 	height:100%;
+ }
+ .covered_main{
+ 	width:11.008rem;
+ 	height:8.192rem;
+ 	background:#fff;
+ 	position: absolute;
+ 	z-index: 2;
+ 	left:50%;
+ 	margin-left:-5.504rem;
+ 	top:7.424rem;
+ 	border-radius: 0.341333rem;
+
+ }
+ .covered_main h3{
+ 	font-weight: 600;
+ 	font-size:0.768rem;
+ 	line-height: .89;
+ 	letter-spacing: -0.1px;
+ 	width:100%;
+ 	height:0.682667rem;
+ 	text-align: center;
+ 	margin:0 auto;
+ 	margin-top:1.28rem;
+ 	margin-bottom: 0.853333rem;
+ 	color:#000;
+ 	font-family:'PingFangSC' ;
+ }
+ .cover_desc{
+ 	font-size: 0.597333rem;
+ 	text-align: center;
+ 	letter-spacing: -0.1px;
+ 	width:10.5rem;
+ 	margin:0 auto;
+ 	line-height: 1.29;
+ 	margin-bottom:1.493333rem;
+	color:#222;
+ }
+ .cover_download{
+ 	width:7.68rem;
+ 	height:1.493333rem;
+ 	background:#0090ff;
+ 	border:0;
+ 	color:#fff;
+ 	border-radius: 0.170667rem;
+ 	font-size: 0.682667rem;
+ }
+ /*下载区域*/
+.lg_download{
+	width:100%;
+	bottom: 0;
+	height: 2.56rem;
+    top: 2rem;
+    position: relative;
+}
+.dl_cover{
+	opacity: 0.6;
+  	background: #000000;
+  	width:100%;
+  	height:100%;
+  	position: absolute;
+  	left:0;
+  	top:0;
+}
+.dl_main{
+	width:14.549333rem;
+	margin:0 auto;
+	margin-top:0.426667rem;
+	height:1.706667rem;
+	z-index: 2;
+	position: relative;
+}
+.dl_main_left{
+	float:left;
+
+}
+.dl_main_left li{
+	float:left;
+	margin-right:0.426667rem;
+	text-align: left;
+}
+.dl_main_right{
+	width:3.84rem;
+	height:1.706667rem;
+	background: #0090ff;
+	text-align: center;
+	line-height: 1.706667rem;
+	color:#fff;
+	font-size:0.64rem;
+	border-radius: 0.170667rem;
+    margin: 0 auto;
+}
+.dl_logo{
+	float:left;
+	background: url(../img/logo.png) no-repeat center;
+	background-size:100% 100%;
+	width:1.706667rem;
+	height:1.706667rem;
+}
+.logo_text{
+}
+.logo_text span:first-child{
+	margin-top:0.170667rem;
+	display: block;
+	width:3.370667rem;
+	height:0.768rem;
+	background: url(../img/logo_txt.png) no-repeat center;
+	background-size:100% 100%;
+}
+.logo_text span:last-child{
+	color:#fff;
+	font-size:0.512rem;
+	display: inline-block;
+}

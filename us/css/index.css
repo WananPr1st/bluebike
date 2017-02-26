@@ -1,0 +1,1907 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'PingFangSC-Regular','Microsoft Yahei';
+    font-size: 24px;
+    color: #868686;
+    background: #fff;
+}
+.no-link {
+    cursor: default !important;
+}
+.hidden {
+    display: none !important;
+}
+.pc {
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    /* max-width: 1440px; */
+    min-width: 1200px;
+    width: 100%;
+    /* width: 1080px; */
+    /* height: 100%; */
+}
+.pc .banner {
+    /* height: 676px; */
+    width: 100%;
+    min-width: 1200px;
+}
+.pc .banner .img{
+    height: 100%;
+    width: 100%;
+}
+.phone {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: none;
+}
+/*head-nav*/
+.head {
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    position: relative;
+    z-index: 100000;
+}
+.headArea {
+    width: 100%;
+    height: 50px;
+}
+.headContain {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.show_logo {
+    width: 167px;
+    height: 37px;
+    float: left;
+}
+.show_logo a {
+    display: block;
+    width:100%;
+    height:100%;
+}
+.show_logo img {
+    width:85%;
+    height:85%;
+    margin-top:10px;
+    vertical-align: middle;
+    display: block;
+}
+.head_nav {
+    float: right;
+    position: relative;
+}
+.head_nav li {
+    font-family: 'PingFangSC-Regular','Microsoft Yahei';
+    float:left;
+    width:100px;
+    width:auto;
+    padding: 0 20px;
+    height:50px;
+    text-align: center;
+    line-height: 50px;
+    font-size:16px;
+    cursor:pointer;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    position: relative;
+    color:#000;
+}
+.head_nav li span {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    height:4px;
+    background: #0090ff;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left:50%;
+    margin-left: -45%;
+    display: none;
+    width:0px;
+    transition: all 3s;
+    -webkit-transition: all 3s;
+}
+ul.head_nav li:hover span {
+    display: inline-block;
+    width:90%;
+    opacity: .8;
+    filter: alpha(opacity=80);
+}
+ul.head_nav li span.spantext {
+    display: inline-block;
+    width:90%;
+    opacity: .8;
+    filter: alpha(opacity=80);
+}
+.head_nav li:hover {
+    color: #007bd7;
+}
+/*中间banner*/
+.banner {
+    width:100%;
+    /* height:828px; */
+}
+/*play*/
+.jiesuo {
+    background: url(../img/overseas/how-unlock.png) no-repeat center;
+    background-size:270px 456px;
+}
+.play_bluegogo {
+    width:100%;
+    height:1140px;
+}
+.playContain {
+    width:960px;
+    height:100%;
+    margin:0 auto;
+}
+.play_up {
+    width:100%;
+    text-align: center;
+    font-family: 'PingFangSC-Regular','Microsoft Yahei';
+    font-size:34px;
+    color:#626262;
+    padding-top:45px;
+    margin-bottom: 54px;
+}
+.play_up p {
+    font-family: 'PingFangSC-Regular','Microsoft Yahei';
+}
+.play_up .title {
+    font-weight: 700;
+    color: #454545;
+}
+.play_up .title-sub {
+    font-size: 19px;
+}
+.play_mid {
+    width:293px;
+    height:593px;
+    margin:0 auto;
+    margin-bottom: 80px;
+    background: url(../img/phone.png) no-repeat center;
+    background-size:100% 100%;
+    position: relative;
+}
+.slideContain {
+    width:260px;
+    position: absolute;
+    height:456px;
+    top:68px;
+    left:17px;
+    overflow: hidden;
+}
+.play_mid ul {
+    width:100000px;
+    position: absolute;
+    height:456px;
+    top:0;
+    left:0;
+}
+.play_mid ul li {
+    float:left;
+    width:260px;
+    height:456px;
+    overflow: hidden;
+}
+.play_mid ul li img {
+    display: block;
+    float:left;
+}
+/*轮播按钮*/
+.play_bot {
+    width:880px;
+    height:195px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.iconarea {
+    width:69px;
+    height:69px;
+    margin:0 auto;
+    margin-bottom: 35px;
+    background-size:cover;
+    position: relative;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+em.dottedline{
+    display: block;
+    width:105px;
+    height:2px;
+    position: absolute;
+    right:-75px;
+    top:18%;
+    background: url('../img/dottedline.png') no-repeat center;
+    background-size: 100% 100%;
+}
+em{
+    background: #dedede
+}
+
+.icon01{
+
+    background: url(../img/cliockicon1.png) no-repeat center;
+}
+.icon02{
+
+    background: url(../img/shandian1.png) no-repeat center;
+}
+.icon03{
+
+    background: url(../img/saomaicon1.png) no-repeat center;
+}
+.icon04{
+
+    background: url(../img/bikeicon1.png) no-repeat center;
+}
+.icon05{
+
+    background: url(../img/parkicon1.png) no-repeat center;
+}
+.icon001{
+
+    background: url(../img/clickicon2.png) no-repeat center;
+}
+.icon002{
+
+    background: url(../img/shandian2.png) no-repeat center;
+}
+.icon003{
+
+    background: url(../img/saomaicon2.png) no-repeat center;
+}
+.icon004{
+
+    background: url(../img/bikeicon2.png) no-repeat center;
+}
+.icon005{
+
+    background: url(../img/parkicon2.png) no-repeat center;
+}
+.item{
+    width:136px;
+    height:187px;
+    text-align: center;
+    float:left;
+    position: relative;
+}
+/*轮播底部按钮*/
+.iconChange{
+    background:#0090ff;
+}
+div.item:last-child{
+    padding-right: 0;
+}
+.item h3{
+    font-size:19px;
+    color:#000;
+    font-family: 'PingFangSC-Regular','Microsoft Yahei';
+    margin-bottom: 16px;
+
+}
+.item p{
+    text-align: center;
+    font-size: 12px;
+    color:#939393;
+    line-height: 1.5;
+    font-family: 'PingFangSC-Regular','Microsoft Yahei';
+     width:126px;
+}
+/*有范儿*/
+.havefun{
+    width:100%;
+    height:auto;
+    min-height:1619px;
+}
+.havefun_top{
+    width:100%;
+    height:813px;
+    background: #f4f5f5;
+    position: relative;
+}
+.hft_contain{
+    width:960px;
+    height:100%;
+    margin: 0 auto;
+    padding-top:140px;
+
+}
+.hft_contain h2{
+    font-size:34px;
+    font-weight: 700;
+    font-family: 'PingFangSC-Regular','Microsoft Yahei';
+    color:#454545;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.hft_contain p{
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    font-size:19px;
+}
+/*自行车*/
+.havebike{
+    width:980px;
+    height:670px;
+    background-size:100% 100%;
+    position: absolute;
+    bottom:-190px;
+    left:50%;
+    margin-left:-490px;
+    z-index:10;
+    color: #626262;
+}
+.havebike img{
+    margin-left:-12px;
+    margin-top:10px;
+}
+.havefun_bot{
+    width:960px;
+    background: #fff;
+    height:806px;
+    margin:0 auto;
+    position: relative;
+    perspective: 1000px;
+    -webkit-perspective: 1000px;
+    -moz-perspective: 1000px;
+}
+.hfb_contain{
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    height:455px;
+    text-align: center;
+}
+.hfb_title{
+    font-size:28px;
+    font-family: 'PingFangSC-Regular','Microsoft Yahei';
+    color:#535353;
+    margin-bottom: 132px;
+    margin-top:-120px;
+    transform-origin:50% 0;
+    /*transform:  rotateY(-90deg) scale(.9);*/
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateX(0); /* Needed to work around an iOS 3.1 bug that causes listview thumbs to disappear when -webkit-visibility:hidden is used. */
+    backface-visibility: hidden;
+    transform: translateX(0);
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    transform-style:preserve-3d;
+    transition: all .8s;
+}
+.hfb_title_001{
+    animation: flipouttotop 1s ease-in 0s 1;
+    -webkit-animation: flipouttotop 1s ease-in 0s 1;
+    transform-style:preserve-3d;
+
+}
+.hfb_title_002{
+    display: block;
+    animation: flipouttodown 1s ease-in 0s 1;
+    -webkit-animation:flipouttodown 1s ease-in 0s 1;
+    transform-style:preserve-3d;
+}
+.tit1{
+    z-index: 2;
+}
+.tit2{
+    z-index:3;
+}
+/*翻转动画*/
+.in {
+   /* -webkit-animation-timing-function: ease-out;
+    -webkit-animation-duration: 1350ms;
+    animation-timing-function: ease-out;
+    animation-duration: 1350ms;*/
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+.out {
+/*    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-duration: 1225ms;
+    animation-timing-function: ease-in;
+    animation-duration: 1225ms;*/
+     opacity: 0;
+    filter: alpha(opacity=1);
+}
+
+.hfb_title.out {
+/*    -webkit-transform: rotateY(-90deg) scale(.9);
+    -webkit-animation-name: flipouttoleft;
+    -webkit-animation-duration: 175ms;
+    transform: rotateY(-90deg) scale(.9);
+    animation-name: flipouttoleft;
+    animation-duration: 1175ms;*/
+     opacity: 0;
+    filter: alpha(opacity=1);
+}
+.hfb_title.in {
+/*    -webkit-animation-name: flipouttodown;
+    -webkit-animation-duration: 1225ms;
+    animation-name: flipouttodown;
+    animation-duration: 1225ms;*/
+        opacity: 1;
+    filter: alpha(opacity=100);
+}
+@-webkit-keyframes flipouttotop {
+    from { -webkit-transform: rotateY(0); }
+    to { -webkit-transform: rotateY(-90deg) scale(.9); }
+}
+@keyframes flipouttotop {
+    from { -webkit-transform: rotateY(0); }
+    to { -webkit-transform: rotateY(-90deg) scale(.9); }
+}
+@-webkit-keyframes flipouttodown {
+    from { -webkit-transform: rotateY(90deg) scale(.9); }
+    to { -webkit-transform: rotateY(0); }
+}
+@keyframes flipouttodown {
+    from { -webkit-transform: rotateY(90deg) scale(.9); }
+    to { -webkit-transform: rotateY(0); }
+}
+
+.hfb_btnList{
+    width:890px;
+    overflow: hidden;
+    position: relative;
+    height:350px;
+    margin:0 auto;
+}
+.hfb_btnList ul.slideCir{
+    width:10000px;
+    overflow: hidden;
+
+    margin:0 auto;
+    overflow: hidden;
+    float:left;
+}
+/*详情轮播容器*/
+.slide2Contain{
+    width: 100000000px;
+    height:100%;
+    position: absolute;
+    left:0;
+    top:0;
+}
+.hfb_btnList ul.slideCir01{
+    width:1200px;
+}
+.hfb_btnList ul.slideCir02{
+    width:1200px;
+    /* margin-left:180px; */
+    float:left;
+    /* margin-right:220px; */
+}
+.hfb_btnList ul li{
+    margin-right: 160px;
+}
+
+.hfb_btnList ul li h3{
+     font-family: 'PingFangSC-Regular','Microsoft Yahei';
+    font-size:14px;
+    color:#262626;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.hfb_btnList ul li p{
+    font-size:12px;
+    color:#737373;
+    margin-bottom: 3px;
+    font-family: 'PingFangSC-Regular','Microsoft Yahei';
+}
+.hfb_icon{
+    margin: 0 auto 40px;
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
+}
+.hfb_icon_tyre{
+     background: url(../img/overseas/tyre.png) no-repeat center;
+}
+.hfb_icon_brake{
+     background: url(../img/overseas/brake.png) no-repeat center;
+}
+.hfb_icon_LED{
+     background: url(../img/overseas/LED.png) no-repeat center;
+}
+.hfb_icon_seat{
+     background: url(../img/overseas/seat.png) no-repeat center;
+}
+.hfb_icon_frame{
+     background: url(../img/phone-overseas/frame.png) no-repeat center;
+}
+.hfb_icon_gear{
+     background: url(../img/overseas/gear.png) no-repeat center;
+}
+
+.lineContain{
+    position: absolute;
+    width:100%;
+    height:670px;
+    left:0;
+    top:0;
+}
+.lineContain li{
+    position: absolute;
+    font-size:16px;
+    color:#535353;
+    /* font-weight: 600; */
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.rengong{
+      width:260px;
+      height:72px;
+      left:60px;
+      top:92px;
+}
+.lineguide{
+  width: 113px;
+  height: 92px;
+  position: absolute;
+  left:125px;
+  top:5px;
+  z-index: -1;
+}
+.lineguide .blueline{
+    width:100%;
+    height:100%;
+    background: url(../img/overseas/line-seat.png) no-repeat center right;
+    background-size: cover;
+}
+.zhineng .zns{
+    width: 150px;
+    height: 22px;
+    position: absolute;
+    left: 214px;
+    top: 3px;
+    z-index: -1;
+}
+.zhineng .blueline{
+    width:100%;
+    height:100%;
+    background:url(../img/overseas/line-lock.png) no-repeat center right;
+    background-size:100% 100%;
+}
+.bihu .blueline{
+    width:100%;
+    height:100%;
+    background: url(../img/overseas/line-frame.png) no-repeat center right;
+    background-size: cover;
+}
+.bihu .bhs{
+    width: 30px;
+    height: 152px;
+    position: absolute;
+    left: 110px;
+    top:5px;
+    z-index: -1;
+}
+.bihu .left{
+    margin-left: -10px;
+    margin-top: 143px;
+}
+.yiti .blueline{
+    width:100%;
+    height:100%;
+    background: url(../img/overseas/line-brake.png) no-repeat center right;
+    background-size: cover;
+}
+.yiti .yts{
+    width: 110px;
+    height: 200px;
+    position: absolute;
+    left: 50px;
+    top: 60px;
+    z-index: -1;
+}
+.yiti .left{
+    margin-left: 165px;
+    margin-top: 45px;
+}
+.shuangmian .blueline{
+    width:100%;
+    height:100%;
+    background: url(../img/overseas/line-chain.png) no-repeat center right;
+    background-size: 100% 100%;
+}
+.shuangmian .sml{
+    width: 128px;
+    height: 162px;
+    position: absolute;
+    left: -120px;
+    top: -15px;
+    z-index: -1;
+}
+.shuangmian .left{
+    margin-left: 20px;
+    margin-top: 125px;
+}
+.lvhe .blueline{
+    width:100%;
+    height:100%;
+    background: url(../img/overseas/line-LED.png) no-repeat center right;
+    background-size: cover;
+}
+.lvhe .left{
+    margin-left: 150px;
+}
+.lvhe .lhj{
+    width: 129px;
+    height: 49px;
+    position: absolute;
+    left: 16px;
+    top:5px;
+    z-index: -1;
+}
+/*隐藏线段*/
+.coverline{
+    width:100%;
+    height:100%;
+    position: absolute;
+    right:0;
+    top:0;
+}
+/*设置脚踏滑块的背景颜色为白色*/
+.sml-cover{
+    background-color: transparent;
+}
+.zhineng{
+      width:230px;
+      height:25px;
+      left: -95px;
+      top:252px;
+}
+.bihu{
+      width:180px;
+      height:500px;
+      left:400px;
+      top:360px;
+}
+.yiti{
+      width:211px;
+      height:178px;
+      right:135px;
+      top:55px;
+}
+
+.shuangmian{
+    width:220px;
+    height:105px;
+    right: 380px;
+    bottom:90px;
+}
+.lvhe{
+      width:295px;
+      height:59px;
+      right:-40px;
+      top:204px;
+}
+
+.safety {
+    color: #454545;
+    width: 100%;
+    /* min-width: 1200px; */
+}
+.safety .title,
+.safety .title-sub {
+    text-align: center;
+}
+.safety .title {
+    margin: -5px 0 50px;
+    font-size:34px;
+    font-weight: 700;
+    color: #454545;
+}
+.safety .title-sub {
+    margin: 60px auto 20px;
+    font-size: 24px;
+}
+
+.safety .img-riding{
+    width:100%;
+    /* height:425px; */
+    /* background-size:cover; */
+    /* position: relative; */
+    /* overflow: hidden; */
+}
+
+.safety .how-it-protect-you {
+    /* display: -webkit-flex; */
+    /* display: -moz-flex; */
+    /* display: -ms-flex; */
+    /* display: -o-flex; */
+    /* display: flex; */
+    /* margin: 20px auto; */
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+}
+.safety .way {
+    display: inline-block;
+    /* display: -webkit-flex; */
+    /* display: -moz-flex; */
+    /* display: -ms-flex; */
+    /* display: -o-flex; */
+    /* display: flex; */
+    margin: 1%;
+    width: 23%;
+    text-align: left;
+}
+.safety .way .icon {
+    display: inline-block;
+    padding-right: 15px;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+.safety .way .icon-check {
+    width: 27px;
+    padding-right: 18px;
+}
+.safety .way .icon-helmet {
+    height: 25.5px;
+}
+.safety .way .icon-pedestrian {
+    width: 23px;
+    height: 35px;
+    padding-right: 24.25px;
+}
+.safety .way .desc {
+    display: inline-block;
+    /* flex: 7; */
+    /* line-height: 2; */
+    /* height: 40px; */
+    vertical-align: middle;
+}
+
+.price {
+    text-align: center;
+}
+.price .title {
+    font-size:34px;
+    margin: 80px 0 30px;
+    font-weight: 700;
+    color: #454545;
+}
+.price .content {
+    background: #0090ff;
+    color: #fff;
+}
+
+.price .minutes {
+    padding: 60px 0 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+.price .money {
+    font-size: 80px;
+    font-weight: 700;
+    margin: 0 auto 20px;
+}
+.price .desc {
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+.price .TC {
+    padding: 20px 0;
+    color: rgba(192, 192, 192, .6);
+    font-size: 14px;
+}
+
+.download{
+    width:100%;
+    /* height:618px; */
+}
+.dl_title {
+    margin: 80px 0 0;
+    font-size:34px;
+    font-weight: 700;
+    text-align: center;
+    color: #454545;
+}
+.download_contain{
+    margin-bottom: 140px;
+    padding:150px 400px;
+    width:960px;
+    /* height:260px; */
+}
+.dl_left{
+    float: left;
+    width:150px;
+    height:100%;
+    margin-left: -50px;
+    padding-top: 55px;
+    padding-right: 80px;
+}
+.dl_right{
+    float: left;
+    margin-left: 100px;
+    width:405px;
+    height:100%;
+    position: relative;
+}
+.dll_img{
+    width:148px;
+    margin:0 auto;
+    margin-bottom: 30px;
+}
+.dl_icon {
+    width: 192px;
+    /* width:220px; */
+    /* height:40px; */
+     height: 57px;
+    display: inline-block;
+    cursor:pointer;
+    /* margin-top: -10px; */
+}
+.dl_icon11{
+     margin-bottom: 20px;
+    /* margin-left: -100px; */
+    background: url(../img/download-apple-store.png) no-repeat center;
+    background-size:100% 100%;
+}
+.dl_icon22{
+    background: url(../img/download-google-play.png) no-repeat center;
+    background-size:100% 100%;
+}
+.left{
+    float:left;
+
+}
+.right{
+    float:right;
+}
+.double_phone{
+    display: block;
+    width:398px;
+    height:539px;
+    position: absolute;
+    /* background-size:100% 100%; */
+    /* background: url(../img/overseas/double-phone.png) no-repeat center; */
+    top:-120px;
+    right:0;
+}
+/*安全轮播按钮*/
+.leftbtn{
+    width:13px;
+    height:24px;
+    display: block;
+    background: url(../img/leftbtn.png) no-repeat;
+    background-size:100% 100%;
+    background-position:left center;
+    position: absolute;
+    left:-50px;
+    top:35%;
+    cursor: pointer;
+}
+.rightbtn{
+    width:13px;
+    height:24px;
+    display: block;
+    background: url(../img/rightbtn.png) no-repeat;
+    background-size:100% 100%;
+    position: absolute;
+    right:-50px;
+    top:35%;
+    cursor: pointer;
+}
+/*底部友情链接*/
+.friendLink{
+    width:100%;
+    height:auto;
+    min-height:650px;
+    font-size:12px;
+    text-align: center;
+    background: #1992fb;
+}
+.flinkContain{
+    width:1200px;
+    height:366px;
+    padding-top:190px;
+    margin:0 auto;
+}
+.flink_logo{
+    width:231px;
+    height:89px;
+    margin:0 auto;
+    margin-bottom: 3px;
+    position: relative;
+}
+
+.link_text{
+    margin: 50px 0 0;
+    width:100%;
+    font-family: 'PingFangSC-Regular','Microsoft Yahei';
+    color:#1c4e73;
+}
+.link-text p {
+    line-height: 2;
+}
+
+.friendLink .links .link {
+    display: inline-block;
+    margin-right: 50px;
+}
+.friendLink .links .link-instagram {
+    margin-right: 0;
+}
+
+.friendLink .links .link .img {
+    width: 45px;
+    height: 45px;
+}
+
+.friendLink .envelope {
+    width: 18px;
+    vertical-align: middle;
+}
+
+.friendLink .link-mail {
+    color: #fff;
+}
+
+.friendLink .usage,
+.friendLink .privacy-policy {
+    color: rgba(192, 192, 192, .6);
+}
+
+@media (max-device-width: 450px) {
+
+}
+
+@media (min-device-width: 450px) {
+
+}
+
+/*ipad*/
+/*@media screen and (min-width:468px) and (max-width:769px){
+
+}*/
+
+@media screen and (max-width:769px){
+        .pc{
+            display: none;
+        }
+        .phone{
+            display: block;
+            background: #fff;
+        }
+        .phoneHeader{
+            width: 100%;
+            height: 2.090667rem;
+            justify-content: space-around;
+            position: fixed;
+            top:0;
+            background-color:#fff ;
+
+            z-index:10000;
+        }
+        .whiteCover{
+            width: 100%;
+            height:100%;
+            opacity: .5;
+            filter: alpha(opacity=50);
+            background: #fff;
+            position: absolute;
+            top:0;
+            z-index:-1;
+            /* -webkit-filter: blur(10px);  Chrome, Opera
+       -moz-filter: blur(10px);
+        -ms-filter: blur(10px);
+            filter: blur(10px);*/
+        }
+        /*三个icon容器*/
+        .headContain{
+            width:100%;
+            height:100%;
+            position: relative;
+        }
+        /*
+
+        menu菜单按钮
+         */
+        .headMenu{
+            float: left;
+            margin: 0.44rem 0 0 .44rem;
+            padding: .2rem 0 0 .2rem;
+            width: 1.194667rem;
+            height: .981333rem;
+        }
+        .headMenu img {
+            width:100%;
+            height:100%;
+        }
+        /**
+         * *菜单列表
+         */
+        .menuList{
+            background: #fff;
+            padding: 2rem 0 0 0.810667rem;
+            -moz-transition:0.5s;
+            -o-transition:0.5s;
+            -webkit-transition:0.5s;
+            transition: .5s;
+            height:0;
+            display: none;
+        }
+         .menuList.active01{
+            display: block;
+            height:auto;
+            -moz-transition-delay:2s;
+             -o-transition-delay:2s;
+            -webkit-transition-delay:2s;
+            transition-delay:2s;
+        }
+         .menuList.active01 li{
+                -moz-transition:all 2s;
+                -o-transition:all 2s;
+                -webkit-transition:all 2s;
+                transition:all .5s;
+                opacity: 1;
+                filter: alpha(opacity=100);
+         }
+        .menuList li{
+                height:2.56rem;
+                line-height: 2.56rem;
+                box-sizing: border-box;
+                border-bottom: 1px solid #f1f1f1;
+                font-size:0.682667rem;
+                color:#4a4a4a;
+                font-family: '微软雅黑';
+                opacity: 0;
+                filter: alpha(opacity=0);
+        }
+        .menuList li:last-child{
+            /*border:none;*/
+        }
+        .phone_logo{
+            margin-top:0.64rem;
+            width: 4.394667rem;
+            height:1.024rem;
+            position: absolute;
+            left:50%;
+            top:50%;
+            margin-top:-0.512rem;
+            margin-left:-2.197333rem;
+        }
+        .phone_logo img{
+            width:100%;
+            height:100%;
+        }
+        .phone_down{
+            margin-top:0.384rem;
+            width: 3.456rem;
+            height:1.408rem;
+            float:right;
+            margin-right:0.554667rem;
+        }
+        .down_btn{
+            width:2.816rem;
+            height:1.152rem;
+            color:#2a2a2a;
+            font-size:0.512rem;
+            line-height:1.152rem;
+            text-align: center;
+            margin:auto;
+            margin-top:0.15rem;
+            box-sizing: border-box;
+            border:1px solid #999;
+            border-radius: 3px;
+        }
+        .phone_down  .down_visited{
+            opacity: .5;
+            filter:alpha(opacity=50);
+        }
+        .phone_banner{
+            width:100%;
+            height:28.458667rem;
+            background: url(../img/phone-overseas/banner-overseas.png) no-repeat center;
+            background-size:100% 100%;
+        }
+        /*轮播*/
+.slider{
+    height: 28.501333rem;
+    padding-top: 2rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /* font-family: '微软雅黑'; */
+}
+.slider-header{
+    /* width: 100%; */
+    height: 0.64rem;
+    line-height: 0.64rem;
+    text-align: center;
+    font-size: 1.024rem;
+    font-weight: 400;
+    /* font-family: '微软雅黑'; */
+    color: #5a5a5a;
+}
+.slider-header span{
+    font-size: 0.6rem;
+    line-height: 3;
+}
+.lunbo{
+    margin-top: 2.5rem;
+}
+.slider-img{
+    width: 100%;
+    text-align: center;
+    height: 9.547rem;
+    object-fit: contain;
+    /*-webkit-box-shadow: 0 0.0533rem 0.267rem 0 rgba(167, 167, 167, 0.64);*/
+    /*-moz-box-shadow: 0 0.0533rem 0.267rem 0 rgba(167, 167, 167, 0.64);*/
+    /*box-shadow: 0 0.0533rem 0.267rem 0 rgba(167, 167, 167, 0.64);*/
+}
+.slider-img{
+    width: 100%;
+    height: 100%;
+}
+.slider-img img{
+    width: 8.576rem;
+    height: 15.274667rem;
+
+}
+.info-top{
+    width: 100%;
+    height: 0.587rem;
+    text-align: center;
+    line-height: 0.587rem;
+    font-size: 0.78667rem;
+    color: #525252;
+    margin-top:.6rem ;
+    font-family: 'PingFangSC-Regular','Microsoft Yahei';
+}
+.info-bottom{
+    width: 70%;
+    /* height: 0.507rem; */
+    margin: .6rem auto 0;
+    /* line-height: 0.507rem; */
+    text-align: center;
+    font-size: 0.6rem;
+    color: #515151;
+}
+.swiper-pagination{
+    margin-top:0.725333rem;
+}
+
+
+
+/*打造一辆由反而的自行车*/
+.bike-info{
+    height:28.458667rem;
+    background-color: #f2f2f2;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 1.12rem;
+    position: relative;
+}
+.bike-info-header{
+    width: 100%;
+    height: 3.072rem;
+    text-align: center;
+    line-height: 4;
+    color: #5a5a5a;
+    font-size: 1.024rem;
+    font-weight: 500;
+    /* font-family: '微软雅黑'; */
+}
+.bike-info .bike-info-header-sub {
+    margin: 0 auto 1rem;
+    width: 80%;
+    font-size: 0.55rem;
+    text-align: center;
+    color: #515151;
+}
+/*swipwer的第二个
+轮
+播*/
+.bike-info.swiper-container02 .bike-detail-left{
+    width:11.818667rem;
+    height:15.36rem;
+    position: relative;
+    overflow: visible;
+}
+.swiper-container {
+    padding-bottom: 0.853333rem;
+}
+.bike-detail-left img{
+    margin-left: 1.598667rem;
+    margin-top:2.88rem;
+    width:11.6rem;
+    height:13rem;
+    display:block;
+    float: right;
+}
+.bike-detail-right{
+    position: relative;
+    top: -2.86rem;
+    left: -.05rem;
+    margin-top: 2.88rem;
+    width: 12.501333rem;
+    height: 15.36rem;
+}
+.bike-detail-info img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+/*左边半个自行车详细*/
+
+.bk_leftDesc{
+    width:132px;
+    height:360px;
+    position:absolute;
+    right:5rem;
+    bottom:-.2rem;
+    background:url(../img/phone-overseas/bikeleftline.png) no-repeat center;
+    background-size: 100% 100%;
+    margin-right:-0.813333rem;
+}
+.bk_leftDesc p{
+    font-size: 0.597333rem;
+    position: absolute;
+    color: #626262;
+    opacity: 1;
+    filter:alpha(opacity=100);
+    font-family: 'PingFangSC-Regular','Microsoft Yahei';
+
+}
+.bk_leftDesc p:nth-child(1){
+    left:-2.3rem;
+    top:-.3rem;
+}
+.bk_leftDesc p:nth-child(2){
+    left:-2.2rem;
+    top:3rem;
+}
+.bk_leftDesc p:nth-child(3){
+    bottom:-.7rem;
+    left:-5.5rem;
+}
+.yinxian-right{
+    position: absolute;
+    left: 2.4rem;
+    top: 0;
+    width: 5.546667rem;
+    height: 4.992rem;
+    width:7.722667rem;
+    height:14.336rem;
+    background:url(../img/phone-overseas/line-left.png) no-repeat center;
+    background-size: 100% 100%;
+}
+.bike-detail-right .yinxian-right img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+/*说明文字样式*/
+.bihu-right{
+    position: absolute;
+    left: 9rem;
+    top: 0;
+    width: 2.72rem;
+    height: 1.597333rem;
+    font-size: 0.512rem;
+    line-height: 0.597333rem;
+    color: #626262;
+    opacity: 1;
+    filter:alpha(opacity=100);
+}
+.yiti-right{
+    position: absolute;
+    left: 3.3rem;
+    bottom: .6rem;
+    width: 2.72rem;
+    height: 0.597333rem;
+    font-size: 0.512rem;
+    line-height: 0.597333rem;
+    color: #626262;
+    opacity: 1;
+    filter:alpha(opacity=100);
+}
+.lvhe-right{
+    position: absolute;
+    left: 10.325333rem;
+    top: 4.6rem;
+    width: 4.584rem;
+    height: 0.597333rem;
+    font-size: 0.512rem;
+    line-height: 0.597333rem;
+    text-align: left;
+    color: #626262;
+        opacity: 1;
+    filter:alpha(opacity=100);
+}
+/*左右按钮*/
+.toggleBtn{
+    position: absolute;
+    width: 5.162667rem;
+    height: 1.536rem;
+    left:50%;
+    margin-left: -2.581333rem;
+    bottom:2rem;
+
+
+    z-index: 2;
+}
+.toggleBtn ul{
+    width: 5.162667rem;
+    height: 1.536rem;
+}
+.leftbtntt{
+    width:50%;
+    height:100%;
+    background: url(../img/leftclick.png) no-repeat center;
+    background-size:200% 100%;
+    background-position:left center;
+}
+.rightbtntt{
+    width:50%;
+    height:100%;
+    background: url(../img/leftclick.png) no-repeat center;
+    background-position:right center;
+    background-size:200% 100%;
+}
+/*详情轮播*/
+.detailSlider{
+    height: 23.04rem;
+    position: relative;
+
+}
+/*两个大于小于号按钮*/
+.swsBtn01,.swsBtn02{
+
+    display: block;
+    position: absolute;
+    top:50%;
+    font-size: 1.109333rem;
+    color:#626262;
+    width:1.109333rem;
+    height:1.109333rem;
+}
+.swsBtnDisabled{
+    opacity: .2;
+    filter: alpha(opacity=20);
+}
+.swsBtn01 img,.swsBtn02 img{
+
+    width:100%;
+    height:100%;
+}
+.swsBtn01{
+    left:10%;
+}
+.swsBtn02{
+    right: 10%;
+}
+.sw_slider{
+    width:6.912rem;
+    height:6.954667rem;
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-left: -3.456rem;
+    margin-top: -1.984rem;
+}
+/**
+ *
+ * 详情轮播
+ */
+.swiper-container03{
+    width: 9.912rem;
+    height:100%;
+}
+.swiper-wrapper03{
+     width: 9.912rem;
+     height:100%;
+     margin:0 auto;
+}
+.sw_sliderList{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.bike-detail-right img{
+    width: 12.714667rem;
+    height:15.36rem;
+}
+.swiper-slide03 .sw3Img{
+    width:6.954667rem;
+    height:6.954667rem;
+    margin:0 auto;
+    margin-top:1.493333rem;
+    background-size: 100% 100%;
+}
+.sw_sliderList li{
+    float:left;
+    width: 100%;
+    height: 100%;
+}
+.sw_sliderList li.swslicon{
+    background-size: 100% 100%;
+}
+.swslicon01{
+    background: url(../img/phone-overseas/seat.png) no-repeat center;
+    background-size: 100% 100%;
+}
+.swslicon02{
+    background: url(../img/phone-overseas/brake.png) no-repeat center;
+    background-size: 100% 100%;
+}
+.swslicon03{
+    background: url(../img/phone-overseas/LED.png) no-repeat center;
+    background-size: 100% 100%;
+}
+.swslicon04{
+    background: url(../img/phone-overseas/tyre.png) no-repeat center;
+    background-size: 100% 100%;
+}
+.swslicon05{
+    background: url(../img/phone-overseas/frame.png) no-repeat center;
+    background-size: 100% 100%;
+}
+.swslicon06{
+    background: url(../img/phone-overseas/gear.png) no-repeat center;
+    background-size: 100% 100%;
+}
+.swsTextlist{
+    overflow: hidden;
+    margin-top:1.28rem;
+    text-align: center;
+    color:#626262;
+    height: 3.8rem;
+}
+/*人汽车*/
+.manbike{
+    height: 14.421333rem;
+
+    position: relative;
+}
+.mbbg{
+   background: url(../img/phone/manbike.jpg) no-repeat center;
+   background-size: 100% 100%;
+   width:100%;
+   height:100%;
+   position: absolute;
+   left:0;
+   top:0;
+   z-index: -1;
+}
+.mbmb{
+    width:100%;
+   height:100%;
+   background: #000;
+   opacity: 0.2;
+   filter: alpha(opacity=20);
+   position: absolute;
+   z-index: 1;
+}
+.sw3desc{
+    padding-top:1.322667rem;
+}
+.sw3desc h3{
+    font-size:0.6rem;
+    font-weight:600;
+    color:#626262;
+    font-family: 'PingFangSC-Regular','Microsoft Yahei';
+    text-align: center;
+}
+.mainbiketext{
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+}
+.sw3desc p{
+    text-align: center;
+    font-size: .55rem;
+    width: auto;
+    height: 2.218667rem;
+    line-height: 1;
+    margin:0 auto;
+    margin-top:0.554667rem;
+    color:#626262;
+    font-family: 'PingFangSC-Regular','Microsoft Yahei';
+    position: relative;
+    z-index: 3;
+}
+
+.safety .img-riding {
+    margin-top: -3rem;
+}
+
+.safety .title {
+    margin: 1rem 0 -1.5rem;
+    height: 0;
+    font-size: 1.024rem;
+    font-weight: 500;
+}
+.safety .title-sub {
+    font-size: .6rem;
+    line-height: 3;
+}
+
+.safety .how-it-protect-you {
+    margin: 0;
+}
+.safety .way {
+    margin: 1%;
+    width: 46%;
+    height: 4rem;
+    font-size: .6rem;
+    text-align: center;
+    color: #515151;
+}
+.safety .way .icon{
+    display: block;
+    margin: 0 auto;
+    padding-right: 0;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+.safety .way .icon-check{
+    width: 1.08rem;
+}
+.safety .way .icon-helmet{
+    height: 1.02rem;
+}
+.safety .way .icon-pedestrian{
+    width: .8rem;
+    height: 1.29rem;
+    margin-bottom: -.09rem;
+}
+.safety .way .desc{
+    margin: 0 auto;
+    padding: .5rem 0 1rem;
+    height: 1.2rem;
+    font-size: .5rem;
+}
+
+.price .title {
+    margin: 2rem 0 1rem;
+    height: 1rem;
+    font-size: 1.024rem;
+    font-weight: 500;
+    color: #454545;
+}
+.price .content {
+    background: #0090ff;
+    color: #fff;
+}
+
+.price .minutes {
+    padding: 2rem 0 0;
+    font-size: .7rem;
+    font-weight: 400;
+}
+.price .money {
+    margin: 0 auto .8rem;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.price .desc {
+    margin: 0 auto;
+    width: 80%;
+    line-height: 1.5;
+    font-size: .6rem;
+}
+.price .TC {
+    padding: .7rem 0;
+    font-size: .5rem;
+}
+
+.friendLink {
+    min-height: 10rem;
+    background: #fff;
+    color: #0090ff;
+}
+.flinkContain{
+    width:100%;
+    padding-top:3rem;
+}
+.flink_logo {
+    height: 2.5rem;
+    width: 8rem;
+}
+.friendLink .links {
+    font-size: .7rem;
+}
+.friendLink .links .link {
+    margin-right: 1.5rem;
+}
+.friendLink .links .link-instagram {
+    margin-right: 0;
+}
+
+.friendLink .links .link .img {
+    width: 1rem;
+    height: 1rem;
+}
+.friendLink .link_text {
+    margin-top: 1rem;
+    color: #0090ff;
+}
+.friendLink .link-mail {
+    color: #0090ff;
+}
+.friendLink .usage,
+.friendLink .privacy-policy {
+    color: #1c4e73;
+}
+
+
+/*切换标题*/
+.dstext01{
+    background: #fff;
+}
+.dstext02{
+    background: #fff;
+}
+.dstextContain01{
+    width:100%;
+    overflow: hidden;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    height:3.242667rem;
+    padding-top:2.538667rem;
+}
+.detailSlider .dstext{
+    width: 9.848rem;
+    height:3.242667rem;
+    margin:0 auto;
+    text-align: center;
+    color: #5a5a5a;
+    font-size: .9rem;
+    font-weight: 600;
+    font-family: 'PingFangSC-Regular','Microsoft Yahei';
+    line-height: 1.621333rem;
+    overflow: hidden;
+    transition: all 1.5s;
+    -webkit-transition: all 1.5s;
+    position: absolute;
+    left:50%;
+    margin-left: -4.924rem;
+}
+.dstext p{
+    font-weight: 500;
+    font-family: 'PingFangSC-Regular','Microsoft Yahei';
+}
+.dstextContain{
+        position: absolute;
+        left:50%;
+
+}
+.dstext01{
+
+}
+
+         .phone_tag li{
+            margin-bottom: 0;
+            font-family: 'PingFangSC-Regular','Microsoft Yahei';
+            text-align: center;
+         }
+         .phone_tag li:last-child{
+            height:0.426667rem;
+            line-height:0.426667rem;
+            text-align: center;
+         }
+        .phone_down01{
+            height: 8.533333rem;
+            width:100%;
+
+        }
+        .pd_contain{
+            width:5.845333rem;
+            height:2.389333rem;
+            margin:0 auto;
+            background: url(../img/phone/dibudanche.png) no-repeat center;
+            background-size:100% 100%;
+            margin-top:3.498667rem;
+            position: relative;
+        }
+        .phone_download01{
+            width:100%;
+            height:1.749333rem;
+
+        }
+        .pdd_contain{
+            width: 4.693333rem;
+            height:1.706667rem;
+            margin:0 auto;
+            margin-top:0.853333rem;
+            position: relative;
+        }
+        .ph_wx{
+            width: 1.749333rem;
+            height: 1.749333rem;
+            background: url(../img/phone/weixin.png) no-repeat center;
+            background-size:100% 100%;
+            float: left;
+            position: relative;
+        }
+        .ph_wxLight{
+            background: url(../img/phone/phoneLight.png) no-repeat center;
+            background-size:100% 100%;
+        }
+        .ph_wb{
+            width: 1.749333rem;
+            height: 1.749333rem;
+            background: url(../img/phone/weibo.png) no-repeat center;
+            background-size:100% 100%;
+            float:right;
+        }
+        .phone_footer{
+            width: 100%;
+            height:5.205333rem;
+            background: #0090ff;
+
+        }
+        .pf_contain{
+            padding-top:1.450667rem;
+            width:80%;
+            height:60%;
+            color:#fff;
+            margin:0 auto;
+        }
+        .pf_contain p{
+            text-align: center;
+        }
+        .pf_contain p:first-child{
+            font-size: 0.426667rem;
+            margin-bottom: 0.256rem;
+        }
+        .pf_contain p:nth-child(2){
+            font-size: 0.554667rem;
+            margin-bottom: .6rem;
+        }
+        .pf_contain p:last-child{
+            font-size: 0.4rem;
+            letter-spacing: 0px;
+
+        }
+        .pf_contain p:last-child a{
+            font-size: 0.4rem;
+            letter-spacing: 0px;
+
+        }
+        .wxcode{
+            width:5.802667rem;
+            height:5.802667rem;
+            background-size:100% 100%;
+            position: absolute;
+            left:0;
+            bottom: -0.426667rem;
+            display: none;
+        }
+        .wxcode img{
+            position: absolute;
+            left:0;
+            top:0;
+            width:100%;
+            height:100%;
+        }
+ }
+
+
+/* 中英文切换PC*/
+.pc_language {
+    width: 80px !important;
+}
+.pc_language li {
+    color: #000;
+    width: 80px;
+    vertical-align: middle;
+}
+
+.pc_language li:hover{
+    color: #007bd7;
+}
+
+.pc_language li:first-child img:last-child {
+    width: 10px;
+}
+
+.pc_language li label {
+    font-family: 'PingFangSC-Regular','Microsoft Yahei';
+    vertical-align: middle;
+}
+
+.pc_language li:last-child {
+    font-size: 14px;
+    background-color: #fff;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    display: none;
+}
+
+.pc_language li:last-child img {
+    margin-left: -10px;
+}
+
+.pc_language li img {
+    width: 14px;
+    vertical-align: middle;
+}
+
+.phone_language {
+    width: 100%;
+    margin-top: 85px;
+}
+
+.phone_language ul {
+    margin-bottom: 10px;
+    margin-top: -55px;
+}
+
+.phone_language li, .phone_language_modal li {
+    text-align: center;
+    font-size: 0.512rem;
+    height: 1.7rem;
+    padding-top: 0.73rem;
+    font-family: 'PingFangSC-Regular','Microsoft Yahei';
+    color: #000;
+    vertical-align: middle;
+}
+
+/* 移动端中英文切换*/
+.phone_language_modal .lang_icon {
+    width: 0.6rem;
+}
+
+.phone_language li span, .phone_language_modal li span{
+    vertical-align: middle;
+}
+
+.phone_language li img, .phone_language_modal li img {
+    width: 0.9rem;
+    vertical-align: middle;
+}
+
+.phone_language_modal {
+    background-color: #fff;
+    width: 100%;
+    z-index: 999;
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    display: none;
+    font-family: 'PingFangSC-Regular','Microsoft Yahei';
+}
+
+.phone_language_modal span {
+    font-family: 'PingFangSC-Regular','Microsoft Yahei';
+}
+
+.phone_language_modal li:nth-child(2) {
+    background-color: #F3F3F3;
+}
+
+.bg{
+    background-color:#000;
+    position:fixed;
+    z-index:99;
+    left:0;
+    top:0;
+    display:none;
+    width:100%;
+    height:100%;
+    opacity:0.25;
+    filter: alpha(opacity=30);
+    -moz-opacity: 0.3;
+}

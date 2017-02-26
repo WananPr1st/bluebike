@@ -1,0 +1,404 @@
+/*www*/
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'PingFangSC-Regular','微软雅黑';
+    font-size: 24px;
+    color: #868686;
+    background: #fff;
+}
+.no-link {
+    cursor: default;
+}
+.pc {
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+    /* width: 1080px; */
+    /* height: 100%; */
+}
+.phone {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: none;
+}
+
+.head {
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    position: relative;
+    z-index: 100000;
+}
+.headArea {
+    width: 100%;
+    height: 50px;
+}
+.headContain {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.show_logo {
+    width: 167px;
+    height: 37px;
+    float: left;
+}
+.show_logo a {
+    display: block;
+    width:100%;
+    height:100%;
+}
+.show_logo img {
+    width:85%;
+    height:85%;
+    margin-top:10px;
+    vertical-align: middle;
+    display: block;
+}
+.head_nav {
+    float: right;
+    position: relative;
+}
+.head_nav a {
+    color: #000;
+}
+.head_nav a::hover {
+    color: #007bd7;
+}
+.head_nav li {
+    font-family: 'PingFangSC-Regular','微软雅黑';
+    float:left;
+    width:100px;
+    height:50px;
+    text-align: center;
+    line-height: 50px;
+    font-size:16px;
+    cursor:pointer;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    position: relative;
+    color:#000;
+}
+.head_nav li span {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    height:4px;
+    background: #007bd7;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left:50%;
+    margin-left: -45%;
+    display: none;
+    width:0px;
+    transition: all 3s;
+    -webkit-transition: all 3s;
+}
+ul.head_nav li:hover span {
+    display: inline-block;
+    width:90%;
+    opacity: .8;
+    filter: alpha(opacity=80);
+}
+ul.head_nav li span.spantext {
+    display: inline-block;
+    width:90%;
+    opacity: .8;
+    filter: alpha(opacity=80);
+}
+
+.friendLink{
+    width:100%;
+    height:auto;
+    min-height:650px;
+    font-size:12px;
+    text-align: center;
+    background: #1992fb;
+
+}
+.flinkContain{
+    width:1200px;
+    height:366px;
+    padding-top:190px;
+    margin:0 auto;
+}
+.flink_logo{
+    width:231px;
+    height:89px;
+    margin:0 auto;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.link_text{
+    margin: 50px 0 0;
+    width:100%;
+    font-family: 'PingFangSC-Regular','微软雅黑';
+    color:#1c4e73;
+}
+.link-text p {
+    line-height: 2;
+}
+
+.friendLink .links .link {
+    display: inline-block;
+    margin-right: 65px;
+}
+.friendLink .links .link-instagram {
+    margin-right: 0;
+}
+
+.friendLink .links .link .img {
+    width: 45px;
+    height: 45px;
+}
+
+.friendLink .envelope {
+    width: 24px;
+    vertical-align: middle;
+}
+
+.friendLink .link-mail {
+    color: #fff;
+}
+
+.friendLink .usage,
+.friendLink .privacy-policy {
+    color: rgba(192, 192, 192, .6);
+}
+
+.contain {
+    margin: 0 auto;
+    width: 1200px;
+    height: auto;
+    color: #575757;
+    font-family: 'San Francisco', 'Times New Roman';
+}
+.phone .contain {
+    padding-top: 2.5rem;
+    width: 90%;
+}
+
+.top-title {
+    width: 100%;
+    height: 23px;
+    line-height: 23px;
+    margin-top: 24px;
+    margin-bottom: 18px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.6px;
+}
+
+.content {
+    width: 100%;
+    height: auto;
+    margin-bottom: 24px;
+    text-align: left;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+}
+.content .no {
+    font-weight: 700;
+}
+
+.title {
+    width: 100%;
+    height: auto;
+    margin-bottom: 24px;
+    text-align: left;
+    font-size: 17px;
+    letter-spacing: 0.4px;
+    font-weight: bold;
+    color: #0090fb;
+
+}
+
+.content-item {
+    margin-bottom: 60px;
+}
+
+.gist {
+    color: #ff0000;
+    letter-spacing: 0.5px;
+}
+
+@media screen and (max-width:769px){
+    .pc{
+        display: none;
+    }
+    .phone{
+        display: block;
+        background: #fff;
+    }
+    .phoneHeader{
+        width: 100%;
+        height: 2.090667rem;
+        justify-content: space-around;
+        position: fixed;
+        top:0;
+        background-color:#fff ;
+
+        z-index:10000;
+    }
+    .whiteCover{
+        width: 100%;
+        height:100%;
+        opacity: .5;
+        filter: alpha(opacity=50);
+        background: #fff;
+        position: absolute;
+        top:0;
+        z-index:-1;
+        /* -webkit-filter: blur(10px);  Chrome, Opera
+   -moz-filter: blur(10px);
+    -ms-filter: blur(10px);
+        filter: blur(10px);*/
+    }
+    /*三个icon容器*/
+    .headContain{
+        width:100%;
+        height:100%;
+        position: relative;
+    }
+    /*
+
+    menu菜单按钮
+     */
+    .headMenu{
+        margin:0.64rem 0 0 .64rem;
+        width:1.194667rem;
+        height:0.981333rem;
+        float:left;
+    }
+    .headMenu img {
+        width:100%;
+        height:100%;
+    }
+    /**
+     * *菜单列表
+     */
+    .menuList{
+        background: #fff;
+        padding: 2rem 0 0 0.810667rem;
+        -moz-transition:0.5s;
+        -o-transition:0.5s;
+        -webkit-transition:0.5s;
+        transition: .5s;
+        height:0;
+        display: none;
+    }
+     .menuList.active01{
+        display: block;
+        height:auto;
+        -moz-transition-delay:2s;
+         -o-transition-delay:2s;
+        -webkit-transition-delay:2s;
+        transition-delay:2s;
+    }
+     .menuList.active01 li{
+            -moz-transition:all 2s;
+            -o-transition:all 2s;
+            -webkit-transition:all 2s;
+            transition:all .5s;
+            opacity: 1;
+            filter: alpha(opacity=100);
+     }
+    .menuList li{
+            height:2.56rem;
+            line-height: 2.56rem;
+            box-sizing: border-box;
+            border-bottom: 1px solid #f1f1f1;
+            font-size:0.682667rem;
+            color:#4a4a4a;
+            font-family: '微软雅黑';
+            opacity: 0;
+            filter: alpha(opacity=0);
+    }
+    .menuList li:last-child{
+        /*border:none;*/
+    }
+    .phone_logo{
+        margin-top:0.64rem;
+        width: 4.394667rem;
+        height:1.024rem;
+        position: absolute;
+        left:50%;
+        top:50%;
+        margin-top:-0.512rem;
+        margin-left:-2.197333rem;
+    }
+    .phone_logo img{
+        width:100%;
+        height:100%;
+    }
+    .phone_down{
+        margin-top:0.384rem;
+        width: 3.456rem;
+        height:1.408rem;
+        float:right;
+        margin-right:0.554667rem;
+    }
+    .down_btn{
+        width:2.816rem;
+        height:1.152rem;
+        color:#2a2a2a;
+        font-size:0.512rem;
+        line-height:1.152rem;
+        text-align: center;
+        margin:auto;
+        margin-top:0.15rem;
+        box-sizing: border-box;
+        border:1px solid #999;
+        border-radius: 3px;
+    }
+    .phone_down  .down_visited{
+        opacity: .5;
+        filter:alpha(opacity=50);
+    }
+
+    .friendLink {
+        min-height: 10rem;
+        background: #fff;
+        color: #0090ff;
+    }
+    .flinkContain{
+        width:100%;
+        padding-top:3rem;
+    }
+    .flink_logo {
+        height: 2.5rem;
+    }
+    .friendLink .links {
+    font-size: .7rem;
+    }
+    .friendLink .links .link {
+        margin-right: 2.5rem;
+    }
+    .friendLink .links .link-instagram {
+        margin-right: 0;
+    }
+
+
+    .friendLink .links .link .img {
+        width: 45px;
+        height: 45px;
+    }
+    .friendLink .link_text {
+        margin-top: 1rem;
+        color: #0090ff;
+    }
+    .friendLink .link-mail {
+        color: #0090ff;
+    }
+    .friendLink .usage,
+    .friendLink .privacy-policy {
+        color: #1c4e73;
+    }
+}

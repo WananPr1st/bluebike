@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+        <meta http-equiv="pragma" content="no-cache" />
+        <meta http-equiv="windows-Target" contect="_top" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="applicable-device" content="pc,mobile" />  
+        <meta http-equiv="Cache-Control" content="no-siteapp" />
+		<title>Returning The Bike</title>
+	</head>
+	<link rel="stylesheet" href="../css/reset.min.css">
+	<body>
+		<div class="contain">
+            <div class="content-item">
+                <div class="title">3.1 Parking your bluegogo bike corrently</div>
+                <!-- <p class="content bottom-space">When you are done, please park the bluegogo bike in any bluegogo parking stations. During the usage, please park in the city designated public bike racks, and do not obstruct vehicle,bike or pedestrian traffic.</p> -->
+                <!-- <p class="content">You can park in public parking areas such as:</p>
+                <p class="content">Free public bike parking areas, bike racks along the road side, the roadway against the curb, or against a building or at the curb.</p>
+                <p class="content bottom-space">Do not park the bike in places difficult to find or which could affect others such as: sidewalk, parking lots, or indoor areas.</p> -->
+                <div class="title map-title">*in San Francisco</div>
+                <p class="content">We are excited to have launched bluegogo in San Francisco! </p>
+                <p class="content">However, for now our service rules are a little different.</p>
+                <p class="content bottom-space">Please make sure to pick-up and return the bike only to one of the bluegogo parking stations below.</p>
+                <p class="content bottom-space">
+                    <a class="map-link" target="_blank" href="http://www.zeemaps.com/pub?group=2377034&legend=1&locate=1&list=1&h=purple&x=-122.411734&y=37.784946&z=4" class="btn">check the stations</a>
+                </p>
+                <p class="content bottom-space secondary-tip">Each day our team will be working on bringing you more stations, and we will keep you updated.</p>
+                <p class="content bottom-space secondary-tip">We also look forward to working with the city of San Francisco to help us grow faster in other locations soon. Stay tuned!</p>
+            </div>
+			<!-- <div class="back">
+				<a href="../userManual.html">
+					Back To User Manual!
+				</a>
+			</div> -->
+		</div>
+	</body>
+    <script src="../js/rem.min.js"></script>
+</html>

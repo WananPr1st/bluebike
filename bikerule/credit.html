@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>信用规则</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/trustRule.css">
+</head>
+<body>
+	<div class="tr_main">
+			<div class="tr_main_content">
+					<div class="tr_main_list">
+						<!-- 加分行为 -->
+						<ul>
+									<li>
+										<span>加分行为</span>
+										<span>分数</span>
+									</li>
+									<li><span>完成一次骑行</span>
+											<span>＋1</span></li>
+								
+									<li><span>举报违规单车<sup>#1</sup></span>
+										<span>＋1</span></li>
+									<li><span>邀请好友成功注册<sup>#2</sup></span>
+										<span>＋1</span></li>
+									<li><span>反馈单车故障问题<sup>#3</sup></span>
+										<span>＋2</span></li>
+						</ul>
+						<!-- 减分行为 -->
+						<ul>
+							<li>
+										<span>减分行为</span>
+										<span>分数</span>
+									</li>
+									<li><span>当日取消预约超过规定次数<sup>#4</sup></span>
+										<span>-2</span></li>
+									<li><span>运营区域外结束用车<sup>#5</sup></span>
+										<span>-5</span></li>
+									<li><span>违规停放单车被举报<sup>#6</sup></span>
+										<span>-10</span></li>
+									<li><span>交通违法行为，弃车逃走<sup>#7</sup></span>
+										<span>扣至0</span></li>
+									<li><span>加装私人用锁<sup>#8</sup></span>
+										<span>扣至0</span></li>
+									<li><span>忘记锁车导致车辆丢失<sup>#9</sup></span>
+										<span>扣至0</span></li>
+										<li><span>恶意破坏单车<sup>#10</sup></span>
+										<span>扣至0</span></li>
+									<li><span>非法移动单车<sup>#11</sup></span>
+										<span>扣至0</span></li>
+									
+						</ul>
+					</div>
+			</div>
+	</div>
+	<!-- 表格详解 -->
+	<div class="tru_disc">
+		<ul class="tru_disc_list">
+			<li>以上使用行为，将关系个人信用分的加减</li>
+			<li>默认起始信用分为100</li>
+			<li>当信用分数降至0时，该账户将被冻结</li>
+			<li>信用分的获取与扣除记录，在个人中心->信用 里查看</li>
+			<li>如发现信用分被错误扣除，请使用【问题反馈】进行申诉，或拨打客服热线400-800-3898</li>
+
+		</ul>
+	</div>
+	<div class="tru_grade">
+		<!-- 加分项详解 -->
+			<div class="add_grade">
+					<p>加分项详解</p>
+					<ul>
+							
+							<li>#1：发现违规单车，请使用【问题反馈】功能，提交举报（违停、加私锁、毁坏等）；</li>
+							<li>#2：进入个人中心->邀请好友，分享至微信或微博，邀请好友并注册成功；</li>
+							<li>#3：发现单车某部件出现故障，请使用【问题反馈】功能，反馈该故障问题；</li>
+					</ul>	
+			</div>
+			<!-- 减分项详解 -->
+			<div class="add_grade">
+					<p>减分项详解</p>
+					<ul>
+							<li>#4：当日取消预约超过10次以上，每再次取消预约，都会扣除信用分；</li>
+							
+							<li>#5：在运营区域外结束用车；</li>
+							<li>#6：被举报违停，经审核将扣除信用分；</li>
+							<li>#7：使用单车时，出现交通违法行为，弃车逃走；</li>
+							<li>#8：单车加装私锁，导致其他用户无法使用；</li>
+							<li>#9：临时停放或结束用车时，忘记锁车导致车辆丢失；</li>
+							<li>#10：有恶意损毁、涂改单车等行为；</li>
+							<li>#11：非法将单车移动至非规定区域（家中、地下停车库、单位院内等）</li>
+					</ul>	
+			</div>
+	</div>
+	
+</body>
+
+<script src="js/plugin/rem.js"></script>
+<script src="js/plugin/zepto.js"></script>
+<script src="js/plugin/fastclick.js"></script>
+
+</html>

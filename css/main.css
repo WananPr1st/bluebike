@@ -1,0 +1,1866 @@
+/*PC*/
+body,html{
+            width:100%;
+            height:100%;
+            font-family: 'PingFangSC-Regular','微软雅黑';
+            font-size: 24px;
+            color:#868686;
+            background: #fff;
+
+        }
+
+.pc{
+    width: 100%;
+    height:100%;
+    position: relative;
+}
+ .thephone{
+    width: 100%;
+    height:100%;
+    position: relative;
+    display: none;
+ }
+/*头部导航*/
+.head{
+    width:100%;
+    height:50px;
+    background: #fff;
+    position: relative;
+    z-index:100000;
+}
+.headArea{
+   width:100%;
+    height:50px;
+}
+.headContain{
+
+    width:1200px;
+    height:100%;
+    margin:0 auto;
+}
+.show_logo{
+    width:167px;
+    height:37px;
+    float:left;
+}
+.show_logo a{
+    display: block;
+    width:100%;
+    height:100%;
+}
+.show_logo img{
+    width:85%;
+    height:85%;
+    margin-top:10px;
+    vertical-align: middle;
+    display: block;
+}
+.head_nav{
+    float: right;
+    position: relative;
+}
+.head_nav li{
+    font-family: 'PingFangSC-Regular','微软雅黑';
+    float:left;
+    width:100px;
+    height:50px;
+    text-align: center;
+    line-height: 50px;
+    font-size:14px;
+    cursor:pointer;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    position: relative;
+    color:#000;
+}
+.head_nav li span{
+    opacity: 0;
+    filter: alpha(opacity=0);
+    height:4px;
+    background: #007bd7;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left:50%;
+    margin-left: -45%;
+    display: none;
+    width:0px;
+    transition: all 3s;
+    -webkit-transition: all 3s;
+
+}
+ul.head_nav li:hover span{
+    display: inline-block;
+    width:90%;
+    opacity: .8;
+    filter: alpha(opacity=80);
+}
+ul.head_nav li span.spantext{
+    display: inline-block;
+    width:90%;
+    opacity: .8;
+    filter: alpha(opacity=80);
+}
+.head_nav li:hover{
+    color: #007bd7;
+}
+/*中间banner*/
+.banner{
+    width:100%;
+    height:828px;
+}
+.banner_img{
+    width:100%;
+    height:100%;
+    background: url(../image/banner.jpg) no-repeat center;
+    overflow: hidden;
+    background-size: cover;
+}
+.banner_img img{
+    display: block;
+    float:left;
+}
+.banner_img p{
+    width:8.5rem;
+    text-align:left;
+    margin:0 auto;
+    color:#000;
+    font-size:42px;
+    height:42px;
+    margin-top:358px;
+    letter-spacing: 17px;
+    font-weight: 500;
+     font-family: 'SiYuanHeiTi', 'PingFangSC-Regular', 'MicrosoftYaHeiUI', 'Helvetica Neue','微软雅黑';
+}
+/*玩转小蓝*/
+.jiesuo{
+    background: url(../image/slide02.png) no-repeat center;
+    background-size:270px 456px;
+}
+.play_bluegogo{
+    width:100%;
+    height:1140px;
+}
+.playContain{
+    width:960px;
+    height:100%;
+    margin:0 auto;
+}
+.play_up{
+    width:100%;
+    text-align: center;
+     font-family: 'PingFangSC-Regular','微软雅黑';
+    font-size:40px;
+    color:#626262;
+    padding-top:90px;
+    margin-bottom: 54px;
+}
+.play_up p{
+ font-family: 'PingFangSC-Regular','微软雅黑';
+}
+.play_mid{
+    width:293px;
+    height:593px;
+    margin:0 auto;
+    margin-bottom: 80px;
+    background: url(../image/phone.png) no-repeat center;
+    background-size:100% 100%;
+    position: relative;
+}
+.slideContain{
+    width:260px;
+    position: absolute;
+    height:456px;
+    top:68px;
+    left:17px;
+    overflow: hidden;
+}
+.play_mid ul{
+    width:100000px;
+    position: absolute;
+    height:456px;
+    top:0;
+    left:0;
+}
+.play_mid ul li{
+    float:left;
+    width:260px;
+    height:456px;
+    overflow: hidden;
+}
+.play_mid ul li img{
+    display: block;
+    float:left;
+}
+/*轮播按钮*/
+.play_bot{
+    width:880px;
+    height:195px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.iconarea{
+    width:69px;
+    height:69px;
+     margin:0 auto;
+    margin-bottom: 35px;
+    background-size:cover;
+    position: relative;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+em.dottedline{
+    display: block;
+    width:105px;
+    height:2px;
+    position: absolute;
+    right:-75px;
+    top:18%;
+    background: url('../image/dottedline.png') no-repeat center;
+    background-size: 100% 100%;
+}
+em{
+    background: #dedede
+}
+
+.icon01{
+
+    background: url(../image/cliockicon1.png) no-repeat center;
+}
+.icon02{
+
+    background: url(../image/shandian1.png) no-repeat center;
+}
+.icon03{
+
+    background: url(../image/saomaicon1.png) no-repeat center;
+}
+.icon04{
+
+    background: url(../image/bikeicon1.png) no-repeat center;
+}
+.icon05{
+
+    background: url(../image/parkicon1.png) no-repeat center;
+}
+.icon001{
+
+    background: url(../image/clickicon2.png) no-repeat center;
+}
+.icon002{
+
+    background: url(../image/shandian2.png) no-repeat center;
+}
+.icon003{
+
+    background: url(../image/saomaicon2.png) no-repeat center;
+}
+.icon004{
+
+    background: url(../image/bikeicon2.png) no-repeat center;
+}
+.icon005{
+
+    background: url(../image/parkicon2.png) no-repeat center;
+}
+.item{
+    width:136px;
+    height:187px;
+    text-align: center;
+    float:left;
+    position: relative;
+}
+/*轮播底部按钮*/
+.iconChange{
+    background:#0090ff;
+}
+div.item:last-child{
+    padding-right: 0;
+}
+.item h3{
+    font-size:19px;
+    color:#000;
+    font-family: 'PingFangSC-Regular','微软雅黑';
+    margin-bottom: 16px;
+
+}
+.item p{
+    text-align: center;
+    font-size: 14px;
+    color:#939393;
+    line-height: 1.5;
+    font-family: 'PingFangSC-Regular','微软雅黑';
+     width:126px;
+}
+
+
+/*有范儿*/
+.havefun{
+    width:100%;
+    height:auto;
+    min-height:1619px;
+}
+.havefun_top{
+    width:100%;
+    height:813px;
+    background: #f4f5f5;
+    position: relative;
+}
+.hft_contain{
+    width:960px;
+    height:100%;
+    margin: 0 auto;
+    padding-top:140px;
+
+}
+.hft_contain h2{
+    font-size:38px;
+     font-family: 'PingFangSC-Regular','微软雅黑';
+    color:#454545;
+    text-align: center;
+    margin-bottom: 11px;
+    font-weight: 500;
+}
+.hft_contain p{
+    text-align: center;
+    font-size:24px;
+    font-family: 'PingFangSC-Regular','微软雅黑';
+}
+/*自行车*/
+.havebike{
+    width:980px;
+    height:670px;
+    background-size:100% 100%;
+    position: absolute;
+    bottom:-155px;
+    left:50%;
+    margin-left:-490px;
+    z-index:10;
+}
+.havebike img{
+    margin-left:-12px;
+    margin-top:10px;
+}
+.havefun_bot{
+    width:960px;
+    background: #fff;
+    height:806px;
+    margin:0 auto;
+    position: relative;
+    perspective: 1000px;
+    -webkit-perspective: 1000px;
+    -moz-perspective: 1000px;
+}
+.hfb_contain{
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    height:455px;
+    text-align: center;
+}
+.hfb_title{
+    font-size:32px;
+    font-family: 'PingFangSC-Regular','微软雅黑';
+    color:#535353;
+    margin-bottom: 132px;
+    margin-top:-120px;
+    letter-spacing: 5px;
+    transform-origin:50% 0;
+    /*transform:  rotateY(-90deg) scale(.9);*/
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateX(0); /* Needed to work around an iOS 3.1 bug that causes listview thumbs to disappear when -webkit-visibility:hidden is used. */
+    backface-visibility: hidden;
+    transform: translateX(0);
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    transform-style:preserve-3d;
+    transition: all .8s;
+}
+.hfb_title_001{
+    animation: flipouttotop 1s ease-in 0s 1;
+    -webkit-animation: flipouttotop 1s ease-in 0s 1;
+    transform-style:preserve-3d;
+
+}
+.hfb_title_002{
+    display: block;
+    animation: flipouttodown 1s ease-in 0s 1;
+    -webkit-animation:flipouttodown 1s ease-in 0s 1;
+    transform-style:preserve-3d;
+}
+.tit1{
+    z-index: 2;
+}
+.tit2{
+    z-index:3;
+}
+/*翻转动画*/
+.in {
+   /* -webkit-animation-timing-function: ease-out;
+    -webkit-animation-duration: 1350ms;
+    animation-timing-function: ease-out;
+    animation-duration: 1350ms;*/
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+.out {
+/*    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-duration: 1225ms;
+    animation-timing-function: ease-in;
+    animation-duration: 1225ms;*/
+     opacity: 0;
+    filter: alpha(opacity=1);
+}
+
+.hfb_title.out {
+/*    -webkit-transform: rotateY(-90deg) scale(.9);
+    -webkit-animation-name: flipouttoleft;
+    -webkit-animation-duration: 175ms;
+    transform: rotateY(-90deg) scale(.9);
+    animation-name: flipouttoleft;
+    animation-duration: 1175ms;*/
+     opacity: 0;
+    filter: alpha(opacity=1);
+}
+.hfb_title.in {
+/*    -webkit-animation-name: flipouttodown;
+    -webkit-animation-duration: 1225ms;
+    animation-name: flipouttodown;
+    animation-duration: 1225ms;*/
+        opacity: 1;
+    filter: alpha(opacity=100);
+}
+@-webkit-keyframes flipouttotop {
+    from { -webkit-transform: rotateY(0); }
+    to { -webkit-transform: rotateY(-90deg) scale(.9); }
+}
+@keyframes flipouttotop {
+    from { -webkit-transform: rotateY(0); }
+    to { -webkit-transform: rotateY(-90deg) scale(.9); }
+}
+@-webkit-keyframes flipouttodown {
+    from { -webkit-transform: rotateY(90deg) scale(.9); }
+    to { -webkit-transform: rotateY(0); }
+}
+@keyframes flipouttodown {
+    from { -webkit-transform: rotateY(90deg) scale(.9); }
+    to { -webkit-transform: rotateY(0); }
+}
+/**/
+
+.hfb_btnList{
+    width:890px;
+    overflow: hidden;
+    position: relative;
+    height:350px;
+    margin:0 auto;
+}
+.hfb_btnList ul.slideCir{
+    width:10000px;
+    overflow: hidden;
+
+    margin:0 auto;
+    overflow: hidden;
+    float:left;
+}
+/*详情轮播容器*/
+.slide2Contain{
+    width: 100000000px;
+    height:100%;
+    position: absolute;
+    left:0;
+    top:0;
+}
+.hfb_btnList ul.slideCir01{
+    width:1200px;
+}
+.hfb_btnList ul.slideCir02{
+    width:800px;
+    margin-left:180px;
+    float:left;
+    margin-right:220px;
+}
+.hfb_btnList ul li{
+    margin-right: 160px;
+}
+
+.hfb_btnList ul li h3{
+     font-family: 'PingFangSC-Regular','微软雅黑';
+    font-size:19px;
+    letter-spacing: 2px;
+    color:#262626;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.hfb_btnList ul li p{
+    font-size:14px;
+    color:#737373;
+    margin-bottom: 3px;
+     font-family: 'PingFangSC-Regular','微软雅黑';
+}
+.hfb_icon{
+    height:190px;
+    width:190px;
+    border-radius: 50%;
+
+    margin-bottom: 40px;
+}
+.hfb_icon1{
+     background: url(../image/shuangceng.png) no-repeat center;
+}
+.hfb_icon2{
+     background: url(../image/qing.png) no-repeat center;
+}
+.hfb_icon3{
+     background: url(../image/jisu.png) no-repeat center;
+}
+.hfb_icon4{
+     background: url(../image/havefunicon2.png) no-repeat center;
+}
+.hfb_icon5{
+     background: url(../image/anquan.png) no-repeat center;
+}
+
+/*自行车线条*/
+.lineContain{
+    position: absolute;
+    width:100%;
+    height:670px;
+    left:0;
+    top:0;
+}
+.lineContain li{
+    position: absolute;
+    font-size:16px;
+    color:#535353;
+    font-weight: 600;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.rengong{
+      width:260px;
+      height:72px;
+      left:64px;
+      top:154px;
+}
+.lineguide{
+    width: 113px;
+    height: 92px;
+  position: absolute;
+  left:150px;
+  top:5px;
+  z-index: -1;
+}
+.lineguide .blueline{
+    width:100%;
+    height:100%;
+    background: url(../image/line01.png) no-repeat center right;
+    background-size: cover;
+}
+/*智能锁线条图片*/
+.zhineng .zns{
+    width: 170px;
+    height: 28px;
+    position: absolute;
+    left: 62px;
+    top:5px;
+    z-index: -1;
+}
+.zhineng .blueline{
+    width:100%;
+    height:100%;
+    background: url(../image/line04.png) no-repeat center right;
+    background-size: 100% 100%;
+}
+/*壁虎式手柄线条图片*/
+.bihu .blueline{
+    width:100%;
+    height:100%;
+    background: url(../image/line03.png) no-repeat center right;
+    background-size: cover;
+}
+.bihu .bhs{
+    width: 70px;
+    height: 8px;
+    position: absolute;
+    left: 110px;
+    top:5px;
+    z-index: -1;
+}
+.bihu .left{
+    margin-left: 20px;
+}
+/*一体式车铃线条图片*/
+.yiti .blueline{
+    width:100%;
+    height:100%;
+    background: url(../image/line021.png) no-repeat center right;
+    background-size: cover;
+}
+.yiti .yts{
+    width: 110px;
+    height: 75px;
+    position: absolute;
+    left: 0px;
+    top:5px;
+    z-index: -1;
+}
+.yiti .left{
+    margin-left: 120px;
+}
+/*双面螺旋设计脚踏*/
+.shuangmian .blueline{
+    width:100%;
+    height:100%;
+    background: url(../image/line06.png) no-repeat center right;
+    background-size: 100% 100%;
+}
+.shuangmian .sml{
+    width: 70px;
+    height: 100px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+.shuangmian .left{
+    margin-left: 75px;
+    margin-top: 85px;
+}
+/*铝合金加固车篮*/
+.lvhe .blueline{
+    width:100%;
+    height:100%;
+    background: url(../image/line05.png) no-repeat center right;
+    background-size: cover;
+}
+.lvhe .left{
+    margin-left: 150px;
+}
+.lvhe .lhj{
+    width: 129px;
+    height: 49px;
+    position: absolute;
+    left: 16px;
+    top:5px;
+    z-index: -1;
+}
+/*隐藏线段*/
+.coverline{
+    width:100%;
+    height:100%;
+    background: #f4f5f5;
+    position: absolute;
+    right:0;
+    top:0;
+}
+/*设置脚踏滑块的背景颜色为白色*/
+.sml-cover{
+    background-color: white;
+}
+.zhineng{
+      width:232px;
+      height:27px;
+      left:19px;
+      top:291px;
+}
+.bihu{
+      width:180px;
+      height:27px;
+      left:402px;
+      top:123px;
+}
+.yiti{
+      width:211px;
+      height:78px;
+      right:146px;
+      top:43px;
+}
+
+.shuangmian{
+    width:220px;
+    height:105px;
+    right: 325px;
+    bottom:35px;
+}
+.lvhe{
+      width:295px;
+      height:59px;
+      right:-45px;
+      top:187px;
+}
+
+/**/
+/*和小兰单车一起寻找自由*/
+.findFree{
+    width:100%;
+    height:960px;
+    background-size:cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.freecontain
+{
+    width: 960px;
+    height:100%;
+    position: absolute;
+    z-index: 5;
+    margin-left: -480px;
+    left:50%;
+    top:0;
+}
+.swiper-containerPC01{
+    width:100%;
+    height:100%;
+    position: absolute;
+    left:0;
+    top:0;
+}
+.freetext{
+    width:585px;
+    height:122px;
+    position: absolute;
+    z-index:10;
+    color:#fff;
+    top:380px;
+    left:50%;
+    margin-left: -293px;
+    text-align: left;
+    letter-spacing: 2px;
+}
+.freetext h2{
+    font-family: 'PingFangSC-Regular','微软雅黑';
+    font-size:52px;
+    margin-bottom: 20px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: 500;
+}
+.freetext p{
+    font-family: 'PingFangSC-Regular','微软雅黑';
+    font-size:28px;
+    letter-spacing: 5px;
+    text-align: center;
+    font-weight: 500;
+}
+.findFree01{
+    background: url(../image/footerleft.jpg) no-repeat center;
+    background-size:1920px 908px;
+}
+.findFree02{
+ background: url(../image/footerright.jpg) no-repeat center;
+  background-size:1920px 908px;
+}
+/*大图列表*/
+.freeccc{
+    width:100%;
+    height:100%;
+
+}
+
+.fcList li{
+    width:1920px;
+    height: 100%;
+    float:left;
+}
+/*下载区域*/
+.download{
+    width:100%;
+    height:618px;
+}
+.download_contain{
+    padding-top:306px;
+    width:960px;
+    height:260px;
+    margin:0 auto;
+}
+.dl_left{
+    float: left;
+    width:310px;
+    height:100%;
+}
+.dl_right{
+    float:right;
+    width:405px;
+    height:100%;
+    position: relative;
+}
+.dll_img{
+    width:148px;
+    margin:0 auto;
+    margin-bottom: 30px;
+}
+.dl_icon{
+
+
+    width:150px;
+    height:53px;
+    display: inline-block;
+    cursor:pointer;
+}
+.dl_icon1{
+    background: url(../image/iphone.png) no-repeat center;
+    background-size:100% 100%;
+}
+.dl_icon2{
+    background: url(../image/android.png) no-repeat center;
+    background-size:100% 100%;
+}
+.left{
+    float:left;
+
+}
+.right{
+    float:right;
+}
+.double_phone{
+    width:398px;
+    height:539px;
+    position: absolute;
+    background-size:100% 100%;
+    background: url(../image/dbphone.png) no-repeat center;
+    top:-120px;
+    right:0;
+}
+/*安全轮播按钮*/
+.leftbtn{
+    width:13px;
+    height:24px;
+    display: block;
+    background: url(../image/leftbtn.png) no-repeat;
+    background-size:100% 100%;
+    background-position:left center;
+    position: absolute;
+    left:-50px;
+    top:35%;
+    cursor: pointer;
+}
+.rightbtn{
+    width:13px;
+    height:24px;
+    display: block;
+    background: url(../image/rightbtn.png) no-repeat;
+    background-size:100% 100%;
+    position: absolute;
+    right:-50px;
+    top:35%;
+     cursor: pointer;
+}
+/*底部友情链接*/
+.friendLink{
+    width:100%;
+    height:auto;
+    min-height:668px;
+    background: #007bd7;
+
+}
+.flinkContain{
+    width:1200px;
+    height:366px;
+    padding-top:290px;
+    margin:0 auto;
+}
+.flink_logo{
+    width:244px;
+    height:89px;
+    margin:0 auto;
+    text-align: center;
+    margin-bottom: 42px;
+    position: relative;
+}
+.flink_logo .llogo_text{
+    margin-top:10px;
+    color:#fff;
+    text-align: center;
+    font-size:28px;
+    letter-spacing: 50px;
+    padding-left: 35px;
+    text-indent: 12px;
+     font-family: 'PingFangSC-Regular','微软雅黑';
+}
+.flink_logo img{
+    width:80%;
+    height:80%;
+}
+/*微信下载*/
+.dlwx{
+    width:135px;
+    height:50px;
+    margin:0 auto;
+    margin-bottom: 45px;
+    position: relative;
+    cursor: pointer;
+}
+/*微信二维码展示动画*/
+.bluemashow{
+    width: 215px;
+    height:215px;
+    background: url(../image/bluema860.jpg) no-repeat center;
+    background-size:100% 100%;
+    position: absolute;
+    left:20px;
+    bottom:0 ;
+    display: block;
+    z-index:2000;
+   opacity: 0;
+   filter: alpha(opacity=0);
+
+}
+.bluemashow a{
+    display: block;
+    width:100%;
+    height:100%;
+}
+.dlwx_dlow{
+    display: inline-block;
+    width:50px;
+    height:50px;
+    background-size:100% 100%;
+
+}
+.dlwx_dlow1{
+     background: url(../image/linkwx2.png) no-repeat center;
+     background-size:43px 43px;
+}
+.dlwx_dlow2{
+     background: url(../image/linkwb2.png) no-repeat center;
+     background-size:43px 43px;
+}
+/*底部友情链接*/
+.link_text{
+    color:#fff;
+    font-size:12px;
+    width:100%;
+    text-align: center;
+    font-family: 'PingFangSC-Regular','微软雅黑';
+}
+.link_text p {
+    font-family: 'PingFangSC-Regular','微软雅黑';
+}
+
+.link_text p:first-child{
+    color:#fff;
+    margin-bottom: 40px;
+    width: 1200px;
+    text-align: center;
+    font-size: 14px;
+     font-family: 'PingFangSC-Regular','微软雅黑';
+}
+/*备案链接*/
+.jincopy{
+     color:#fff;
+     font-size:12px;
+}
+/*.link_text p:first-child span{
+    display: inline-block;
+    height:22px;
+    line-height: 22px;
+    border-right:1px solid #fff;
+    text-align: center;
+
+}
+.link_text p:first-child span{
+    display: inline-block;
+    width:33%;
+    letter-spacing: .21px;
+}
+.link_text p:first-child span:last-child{
+    border:0;
+    white-space: nowrap;
+}
+.link_text p span.nthc{
+    width: 25%;
+    display: inline-block;
+}
+.link_text p:last-child{
+    font-size: 14px;
+    letter-spacing: 1px;
+
+}*/
+.link_text p:first-child span{
+    padding:0 20px;
+    color:#fff;
+}
+
+
+
+
+
+
+
+    @media (max-device-width: 450px) {
+
+    }
+
+    @media (min-device-width: 450px) {
+
+    }
+
+
+
+/*ipad*/
+/*@media screen and (min-width:468px) and (max-width:769px){
+
+
+}*/
+
+
+     /*手机*/
+ @media screen and (max-width:769px){
+        .pc{
+            display: none;
+        }
+        .thephone{
+            display: block;
+            background: #fff;
+        }
+        .phoneHeader{
+            width: 100%;
+            height: 2.090667rem;
+            justify-content: space-around;
+            position: fixed;
+            top:0;
+            background-color:#fff ;
+
+            z-index:10000;
+        }
+        .whiteCover{
+            width: 100%;
+            height:100%;
+            opacity: .5;
+            filter: alpha(opacity=50);
+            background: #fff;
+            position: absolute;
+            top:0;
+            z-index:-1;
+            /* -webkit-filter: blur(10px);  Chrome, Opera
+       -moz-filter: blur(10px);
+        -ms-filter: blur(10px);
+            filter: blur(10px);*/
+        }
+        /*三个icon容器*/
+        .headContain{
+            width:100%;
+            height:100%;
+            position: relative;
+        }
+        /*
+
+        menu菜单按钮
+         */
+        .headMenu{
+            margin:0.64rem 0 0 .64rem;
+            width:1.194667rem;
+            height:0.981333rem;
+            float:left;
+        }
+        .headMenu img {
+            width:100%;
+            height:100%;
+        }
+        /**
+         * *菜单列表
+         */
+        .menuList{
+            background: #fff;
+            padding-left:0.810667rem;
+            -moz-transition:0.5s;
+            -o-transition:0.5s;
+            -webkit-transition:0.5s;
+            transition: .5s;
+            height:0;
+            display: none;
+        }
+         .menuList.active01{
+            display: block;
+            height:auto;
+            -moz-transition-delay:2s;
+             -o-transition-delay:2s;
+            -webkit-transition-delay:2s;
+            transition-delay:2s;
+        }
+         .menuList.active01 li{
+                -moz-transition:all 2s;
+                -o-transition:all 2s;
+                -webkit-transition:all 2s;
+                transition:all .5s;
+                opacity: 1;
+                filter: alpha(opacity=100);
+         }
+        .menuList li{
+
+                height:2.56rem;
+                line-height: 2.56rem;
+                box-sizing: border-box;
+                border-bottom: 1px solid #f1f1f1;
+                font-size:0.682667rem;
+                color:#4a4a4a;
+                font-family: '微软雅黑';
+                opacity: 0;
+                filter: alpha(opacity=0);
+        }
+        .menuList li:last-child{
+            /*border:none;*/
+        }
+        .phone_logo{
+            margin-top:0.64rem;
+            width: 4.394667rem;
+            height:1.024rem;
+            position: absolute;
+            left:50%;
+            top:50%;
+            margin-top:-0.512rem;
+            margin-left:-2.197333rem;
+        }
+        .phone_logo img{
+            width:100%;
+            height:100%;
+        }
+        .phone_down{
+            margin-top:0.384rem;
+            width: 3.456rem;
+            height:1.408rem;
+            float:right;
+            margin-right:0.554667rem;
+        }
+        .down_btn{
+            width:2.816rem;
+            height:1.152rem;
+            color:#2a2a2a;
+            font-size:0.512rem;
+            line-height:1.152rem;
+            text-align: center;
+            margin:auto;
+            margin-top:0.15rem;
+            box-sizing: border-box;
+            border:1px solid #999;
+            border-radius: 3px;
+        }
+        .phone_down  .down_visited{
+            opacity: .5;
+            filter:alpha(opacity=50);
+        }
+        .phone_banner{
+            width:100%;
+            height:28.458667rem;
+            background: url(../image/phone/banner2.jpg) no-repeat center;
+            background-size:100% 100%;
+        }
+        .phone_tag{
+            width:2.133333rem;
+            height:50%;
+            margin:0 auto;
+            text-align: center;
+        }
+        .phone_tag{
+            color: #000;
+            font-weight: 600;
+            padding-top:4.5rem;
+        }
+        /*轮播*/
+.slider{
+    height: 28.501333rem;
+    padding-top: 3.797333rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: '微软雅黑';
+}
+.slider-header{
+    width: 100%;
+    text-align: center;
+    height: 0.64rem;
+    line-height: 0.64rem;
+    text-align: center;
+    font-size: 1.024rem;
+    font-weight: 600;
+    font-family: '微软雅黑';
+    color: #5a5a5a;
+}
+.lunbo{
+    margin-top: 1.792rem;
+}
+.slider-img{
+    width: 100%;
+    text-align: center;
+    height: 9.547rem;
+    object-fit: contain;
+    /*-webkit-box-shadow: 0 0.0533rem 0.267rem 0 rgba(167, 167, 167, 0.64);*/
+    /*-moz-box-shadow: 0 0.0533rem 0.267rem 0 rgba(167, 167, 167, 0.64);*/
+    /*box-shadow: 0 0.0533rem 0.267rem 0 rgba(167, 167, 167, 0.64);*/
+}
+.slider-img{
+    width: 100%;
+    height: 100%;
+}
+.slider-img img{
+    width: 8.576rem;
+    height: 15.274667rem;
+
+}
+.info-top{
+    width: 100%;
+    height: 0.587rem;
+    text-align: center;
+    line-height: 0.587rem;
+    font-size: 0.78667rem;
+    color: #525252;
+    margin-top:1.152rem ;
+    font-family: 'PingFangSC-Regular','微软雅黑';
+}
+.info-bottom{
+    width: 100%;
+    height: 0.507rem;
+    margin-top: 0.826667rem;
+    line-height: 0.507rem;
+    text-align: center;
+    font-size: 0.682667rem;
+    color: #525252;
+}
+.swiper-pagination{
+    margin-top:0.725333rem;
+}
+
+
+
+/*打造一辆由反而的自行车*/
+.bike-info{
+    height:28.458667rem;
+    background-color: #f2f2f2;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 1.12rem;
+    position: relative;
+}
+.bike-info-header{
+    width: 100%;
+    height: 3.072rem;
+    text-align: center;
+    line-height: 4;
+    color: #5a5a5a;
+    font-size: 1.024rem;
+    font-weight: 600;
+    font-family: '微软雅黑';
+}
+/*swipwer的第二个
+轮
+播*/
+.bike-info.swiper-container02 .bike-detail-left{
+    width:11.818667rem;
+    height:15.36rem;
+    position: relative;
+    overflow: visible;
+}
+.swiper-container {
+
+    padding-bottom: 0.853333rem;
+}
+.bike-detail-left img{
+    margin-left: 1.598667rem;
+    margin-top:2.88rem;
+    width:11.818667rem;
+    height:15.36rem;
+    display:block;
+    float: right;
+}
+.bike-detail-right{
+    position: relative;
+    margin-top: 2.88rem;
+    width: 12.501333rem;
+    height: 15.36rem;
+}
+.bike-detail-info img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+/*左边半个自行车详细*/
+
+.bk_leftDesc{
+
+    width:7.722667rem;
+    height:14.336rem;
+    position:absolute;
+    right:0;
+    bottom:0.626667rem;
+    background:url(../image/bikeleftline.png) no-repeat center;
+    background-size: 100% 100%;
+    margin-right:-0.813333rem;
+}
+.bk_leftDesc p{
+    font-size: 0.597333rem;
+    position: absolute;
+    color: #626262;
+    opacity: 1;
+    filter:alpha(opacity=100);
+    font-family: 'PingFangSC-Regular','微软雅黑';
+
+}
+.bk_leftDesc p:nth-child(1){
+    left:-3.9rem;
+    top:0;
+}
+.bk_leftDesc p:nth-child(2){
+    left:-2.5rem;
+    top:3.2rem;
+}
+.bk_leftDesc p:nth-child(3){
+    bottom:-0.98667rem;
+    right:2rem;
+}
+.yinxian-right{
+    position: absolute;
+    left: 4.394667rem;
+    top: -1.450667rem;
+    width: 5.546667rem;
+    height: 4.992rem;
+}
+.bike-detail-right .yinxian-right img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+/*说明文字样式*/
+.bihu-right{
+    position: absolute;
+    left: 7.594667rem;
+    top: -1.76rem;
+    width: 2.72rem;
+    height: 0.597333rem;
+    font-size: 0.512rem;
+    line-height: 0.597333rem;
+    text-align: center;
+    color: #626262;
+    opacity: 1;
+    filter:alpha(opacity=100);
+}
+.yiti-right{
+    position: absolute;
+    left: 9rem;
+    top: 0rem;
+    width: 2.72rem;
+    height: 0.597333rem;
+    font-size: 0.512rem;
+    line-height: 0.597333rem;
+    text-align: center;
+    color: #626262;
+        opacity: 1;
+    filter:alpha(opacity=100);
+}
+.lvhe-right{
+    position: absolute;
+    left: 10.325333rem;
+    top: 2.432rem;
+    width: 4.584rem;
+    height: 0.597333rem;
+    font-size: 0.512rem;
+    line-height: 0.597333rem;
+    text-align: left;
+    color: #626262;
+        opacity: 1;
+    filter:alpha(opacity=100);
+}
+/*左右按钮*/
+.toggleBtn{
+    position: absolute;
+    width: 5.162667rem;
+    height: 1.536rem;
+    left:50%;
+    margin-left: -2.581333rem;
+    bottom:1.152rem;
+
+
+    z-index: 2;
+}
+.toggleBtn ul{
+    width: 5.162667rem;
+    height: 1.536rem;
+}
+.leftbtntt{
+    width:50%;
+    height:100%;
+    background: url(../image/leftclick.png) no-repeat center;
+    background-size:200% 100%;
+    background-position:left center;
+}
+.rightbtntt{
+    width:50%;
+    height:100%;
+    background: url(../image/leftclick.png) no-repeat center;
+    background-position:right center;
+    background-size:200% 100%;
+}
+/*详情轮播*/
+.detailSlider{
+    height: 23.04rem;
+    position: relative;
+
+}
+/*两个大于小于号按钮*/
+.swsBtn01,.swsBtn02{
+
+    display: block;
+    position: absolute;
+    top:50%;
+    font-size: 1.109333rem;
+    color:#626262;
+    width:1.109333rem;
+    height:1.109333rem;
+}
+.swsBtnDisabled{
+    opacity: .2;
+    filter: alpha(opacity=20);
+}
+.swsBtn01 img,.swsBtn02 img{
+
+    width:100%;
+    height:100%;
+}
+.swsBtn01{
+    left:10%;
+}
+.swsBtn02{
+    right: 10%;
+}
+.sw_slider{
+
+    width:6.912rem;
+    height:6.954667rem;
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-left: -3.456rem;
+    margin-top: -1.984rem;
+}
+/**
+ *
+ * 详情轮播
+ */
+.swiper-container03{
+    width: 9.912rem;
+    height:100%;
+}
+.swiper-wrapper03{
+     width: 9.912rem;
+     height:100%;
+     margin:0 auto;
+}
+.sw_sliderList{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.bike-detail-right img{
+    width: 12.714667rem;
+    height:15.36rem;
+}
+.swiper-slide03 .sw3Img{
+    width:6.954667rem;
+    height:6.954667rem;
+    margin:0 auto;
+    margin-top:1.493333rem;
+    background-size: 100% 100%;
+}
+.sw_sliderList li{
+    float:left;
+    width: 100%;
+    height: 100%;
+}
+.sw_sliderList li.swslicon{
+    background-size: 100% 100%;
+}
+.swslicon01{
+    background: url(../image/phone/shengli.png) no-repeat center;
+    background-size: 100% 100%;
+}
+.swslicon02{
+    background: url(../image/phone/jisu.png) no-repeat center;
+    background-size: 100% 100%;
+}
+.swslicon03{
+    background: url(../image/phone/anquan.png) no-repeat center;
+    background-size: 100% 100%;
+}
+.swslicon04{
+    background: url(../image/phone/db.png) no-repeat center;
+    background-size: 100% 100%;
+}
+.swslicon05{
+    background: url(../image/swslicon05.png) no-repeat center;
+    background-size: 100% 100%;
+}
+.swsTextlist{
+    overflow: hidden;
+    margin-top:1.28rem;
+    text-align: center;
+    color:#626262;
+    height: 3.8rem;
+}
+/*人汽车*/
+.manbike{
+    height: 14.421333rem;
+
+    position: relative;
+}
+.mbbg{
+   background: url(../image/phone/manbike.jpg) no-repeat center;
+   background-size: 100% 100%;
+   width:100%;
+   height:100%;
+   position: absolute;
+   left:0;
+   top:0;
+   z-index: -1;
+}
+.mbmb{
+    width:100%;
+   height:100%;
+   background: #000;
+   opacity: 0.2;
+   filter: alpha(opacity=20);
+   position: absolute;
+   z-index: 1;
+}
+.sw3desc{
+    padding-top:1.322667rem;
+}
+.sw3desc h3{
+    font-size:0.938667rem;
+    color:#626262;
+    font-family: 'PingFangSC-Regular','微软雅黑';
+    text-align: center;
+}
+.mainbiketext{
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+}
+.sw3desc p{
+    text-align: center;
+    font-size: 0.682667rem;
+    width: 7.826667rem;
+    height: 2.218667rem;
+    line-height: 1.63;
+    margin:0 auto;
+    margin-top:0.554667rem;
+    color:#626262;
+    font-family: 'PingFangSC-Regular','微软雅黑';
+    position: relative;
+    z-index: 3;
+}
+/*人骑车的文字*/
+.manbike .mainbiketext01{
+
+/*    left:50%;
+    top:50%;
+    margin-left:-5.589333rem;
+    margin-top:-1.109333rem;
+    position: absolute;*/
+    width:10.922667rem;
+    height:4.266667rem;
+    margin:0 auto;
+    z-index: 10;
+    position: relative;
+    padding-top:5.973333rem;
+}
+.manbike .mainbiketext01 h2{
+        font-size: 1.109333rem;
+    color:#fff;
+    text-align: center;
+    margin-bottom: 0.213333rem;
+    font-family: 'PingFangSC-Regular','微软雅黑';
+}
+.manbike p.mainbiketext02{
+    font-size:0.768rem;
+    color:#fff;
+    text-align: center;
+    font-family: 'PingFangSC-Regular','微软雅黑';
+
+
+}
+/*切换标题*/
+.dstext01{
+    background: #fff;
+}
+.dstext02{
+    background: #fff;
+}
+.dstextContain01{
+    width:100%;
+    overflow: hidden;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    height:3.242667rem;
+    padding-top:2.538667rem;
+}
+.detailSlider .dstext{
+    width: 9.848rem;
+    height:3.242667rem;
+    margin:0 auto;
+    text-align: center;
+    color: #5a5a5a;
+    font-size: 1.024rem;
+    font-weight: 600;
+    font-family: 'PingFangSC-Regular','微软雅黑';
+    line-height: 1.621333rem;
+    overflow: hidden;
+    transition: all 1.5s;
+    -webkit-transition: all 1.5s;
+    position: absolute;
+    left:50%;
+    margin-left: -4.924rem;
+}
+.dstext p{
+    font-weight: 500;
+    font-family: 'PingFangSC-Regular','微软雅黑';
+}
+.dstextContain{
+        position: absolute;
+        left:50%;
+
+}
+.dstext01{
+
+}
+
+         .phone_tag li{
+            margin-bottom: 0;
+            font-family: 'PingFangSC-Regular','微软雅黑';
+            text-align: center;
+         }
+         .phone_tag li:last-child{
+            height:0.426667rem;
+            line-height:0.426667rem;
+            text-align: center;
+         }
+        .phone_down01{
+            height: 8.533333rem;
+            width:100%;
+
+        }
+        .pd_contain{
+            width:5.845333rem;
+            height:2.389333rem;
+            margin:0 auto;
+            background: url(../image/phone/dibudanche.png) no-repeat center;
+            background-size:100% 100%;
+            margin-top:3.498667rem;
+            position: relative;
+        }
+        .phone_download01{
+            width:100%;
+            height:1.749333rem;
+
+        }
+        .pdd_contain{
+            width: 4.693333rem;
+            height:1.706667rem;
+            margin:0 auto;
+            margin-top:0.853333rem;
+            position: relative;
+        }
+        .ph_wx{
+            width: 1.749333rem;
+            height: 1.749333rem;
+            background: url(../image/phone/weixin.png) no-repeat center;
+            background-size:100% 100%;
+            float: left;
+            position: relative;
+        }
+        .ph_wxLight{
+            background: url(../image/phone/phoneLight.png) no-repeat center;
+            background-size:100% 100%;
+        }
+        .ph_wb{
+            width: 1.749333rem;
+            height: 1.749333rem;
+            background: url(../image/phone/weibo.png) no-repeat center;
+            background-size:100% 100%;
+            float:right;
+        }
+        .phone_footer{
+            width: 100%;
+            height:6.95rem;
+            background: #0090ff;
+
+        }
+        .phone_footer a {
+            color: #fff;
+        }
+        .pf_contain{
+            padding-top:1.450667rem;
+            width:80%;
+            height:60%;
+            color:#fff;
+            margin:0 auto;
+        }
+        .pf_contain p{
+            text-align: center;
+        }
+        .pf_contain p a {
+            font-family: 'PingFangSC-Regular','微软雅黑';
+        }
+        .pf_contain p:first-child{
+            font-size: 0.554667rem;
+            margin-bottom: 0.256rem;
+        }
+        .pf_contain p:nth-child(2) {
+            font-size: 0.341333rem;
+            margin-bottom: .6rem;
+        }
+        .pf_contain p:nth-child(3) {
+            font-size: 0.426667rem;
+            color: #fff;
+            margin-bottom: .6rem;
+            vertical-align: middle;
+        }
+        .pf_contain p:nth-child(3) a:first-child img {
+            width: 0.554667rem;
+            height: 0.426667rem;
+            vertical-align: middle;
+        }
+        .pf_contain p:nth-child(3) a:last-child img {
+            width: 0.64005rem;
+            height: 0.426667rem;
+            vertical-align: middle;
+        }
+
+        .pf_contain p:last-child{
+            font-size: 0.2987rem;
+            letter-spacing: 0px;
+
+        }
+        .pf_contain p:last-child a{
+            font-size: 0.4rem;
+            letter-spacing: 0px;
+
+        }
+        .wxcode{
+            width:5.802667rem;
+            height:5.802667rem;
+            background-size:100% 100%;
+            position: absolute;
+            left:0;
+            bottom: -0.426667rem;
+            display: none;
+        }
+        .wxcode img{
+            position: absolute;
+            left:0;
+            top:0;
+            width:100%;
+            height:100%;
+        }
+ }
+
+/* 中英文切换PC*/
+.pc_language li {
+    color: #000;
+    width: 80px;
+    vertical-align: middle;
+}
+
+.pc_language li:hover{
+    color: #007bd7;
+}
+
+.pc_language li:first-child img:last-child {
+    width: 10px;
+}
+
+.pc_language li label {
+    font-family: 'PingFangSC-Regular','微软雅黑';
+    vertical-align: middle;
+}
+
+.pc_language li:last-child {
+    font-size: 14px;
+    background-color: #fff;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    display: none;
+}
+
+.pc_language li:last-child img {
+    margin-left: -24px;
+}
+
+.pc_language li img {
+    width: 14px;
+    vertical-align: middle;
+}
+
+.phone_language {
+    width: 100%;
+    margin-top: 85px;
+}
+
+.phone_language ul {
+    margin-bottom: 10px;
+    margin-top: -55px;
+}
+
+.phone_language li, .phone_language_modal li {
+    text-align: center;
+    font-size: 0.512rem;
+    height: 1.7rem;
+    padding-top: 0.73rem;
+    font-family: 'PingFangSC-Regular','微软雅黑';
+    color: #000;
+    vertical-align: middle;
+}
+
+/* 移动端中英文切换*/
+.phone_language_modal .lang_icon {
+    width: 0.6rem;
+}
+
+.phone_language li span, .phone_language_modal li span{
+    vertical-align: middle;
+}
+
+.phone_language li img, .phone_language_modal li img {
+    width: 0.9rem;
+    vertical-align: middle;
+}
+
+.phone_language_modal {
+    background-color: #fff;
+    width: 100%;
+    z-index: 999;
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    display: none;
+    font-family: 'PingFangSC-Regular','微软雅黑';
+}
+
+.phone_language_modal span {
+    font-family: 'PingFangSC-Regular','微软雅黑';
+}
+
+.phone_language_modal li:nth-child(2) {
+    background-color: #F3F3F3;
+}
+
+.bg{
+    background-color:#000;
+    position:fixed;
+    z-index:99;
+    left:0;
+    top:0;
+    display:none;
+    width:100%;
+    height:100%;
+    opacity:0.25;
+    filter: alpha(opacity=30);
+    -moz-opacity: 0.3;
+}

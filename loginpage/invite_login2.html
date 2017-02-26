@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+	<title>邀请注册</title>
+	<!-- resest.css 页面初始化css属性操作,把多余padding以及margin等去掉 -->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/common.css">
+
+</head>
+<body>
+	
+	<section id="Numtest" style="display:none" class="Numtest">
+	<!-- 手机号验证页 -->
+		<div class="numtestMain">
+			<div class="shadow"></div>
+			<div class="form">
+			<!-- logo -->
+				<img src="img/icon2.png" alt=""/>
+				<p class="form_tit">注册就送优惠劵</p>
+			</div>
+		</div>
+		<div class="numMain">
+			<div class="numIpt">
+				<input type="text" class="numtest" placeholder="请输入手机号" autofocus="autofocus" />
+			</div>
+			
+			<button class="num_nest">下一步</button>
+		</div>
+		<!-- 遮罩层 -->
+		<div class="covered">
+			<div class="coverbg"></div>
+			<div class="covered_main">
+				<h3>手机号已注册</h3>
+				<p class="cover_desc"> 您可换手机号注册或者直接下载BlueGoGo使用</p>
+				<button class="cover_download">下载APP</button>
+			</div>
+		</div>
+	</section>
+	<section style="display:none" id="code" class="code">
+		<!-- 验证码验证页 -->
+			<div class="numtestMain">
+				<div class="shadow"></div>
+				<div class="form">
+				<!-- logo -->
+					<img src="img/icon2.png" alt="">
+					<p class="form_tit">注册就送优惠劵</p>
+				</div>
+			</div>
+		<!-- 验证码	 -->
+		<div class="numMain">
+			
+			<div class="code_contain">
+					<div class="code_ipt">
+						<input type="text" placeholder="请输入验证码" class="codenext" autofocus="autofocus" />
+					</div>
+					<div class="code_get">
+						<span class="getcode">获得验证码</span>
+					</div>
+			</div>
+			<button class="code_nest">下一步</button>
+		</div>
+	</section>
+	<section id="password" style="display:none" class="password">
+	<!-- 设置密码页 -->
+	<!-- 验证码验证页 -->
+			<div class="numtestMain">
+				<div class="shadow"></div>
+				<div class="form">
+				<!-- logo -->
+					<img src="img/icon2.png" alt="">
+					<p class="form_tit">注册就送优惠劵</p>
+				</div>
+			</div>
+			<!-- 设置密码 -->
+			<div class="numMain">
+					<div class="numIpt">
+						<input type="password" class="pstest" placeholder="请设置6-18位密码" autofocus="autofocus" />
+					</div>
+			
+			<button class="pass_nest">立即注册</button>
+		</div>
+			
+	</section>
+	<section id="loginSuccess" style="display:none" class="loginSuccess">
+	<!-- 注册成功页 -->
+			<div class="lg_main">
+				<h2>注册成功</h2>
+				<p class="lg_youhui">一张<b class="lg_pri">5</b>元优惠卷已放入您的账户</p>
+				<p>赶紧下载应用骑行吧</p>
+			</div>
+			<div class="lg_tag">
+				<div class="lg_tag_left">
+						<p class="lg_tit"></p>
+						<dl>
+							<dt class="lg_time"></dt>
+							<dd class="lg_desc01">新用户奖励优惠用券新用户奖励优惠用券</dd>
+							<dd>新用户奖励优惠用券</dd>
+						</dl>
+				</div>
+				<div class="lg_tag_right">
+					<p>
+						<span class="lg_price">5</span>
+						<span>元</span>
+					</p>
+				</div>
+			</div>
+			<!-- 下载区域 -->
+			<div class="lg_download">
+					<div class="dl_cover"></div>
+					<div class="dl_main">
+						<div class="dl_main_left">
+							<ul>
+								<li class="dl_logo"></li>
+								<li>
+									<div class="logo_text">
+										<span></span>
+										<span>小蓝单车</span>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="dl_main_right">
+							立即下载
+						</div>
+					</div>
+			</div>
+	</section>
+	
+</body>
+<script src="js/plugin/rem.js"></script>
+<script src="js/plugin/zepto.js"></script>
+<script src="js/plugin/fastclick.js"></script>
+<script src="js/plugin/director.js"></script>
+<script src="js/plugin/md5-min.js"></script>
+<script src="js/module/numtest.js"></script>
+<script src="js/module/code.js"></script>
+<script src="js/module/password.js"></script>
+<script src="js/module/loginSuccess.js"></script>
+<script src="js/route.js"></script>
+<script src="js/index.js"></script>
+
+</html>

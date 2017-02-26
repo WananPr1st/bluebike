@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="windows-Target" contect="_top" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="applicable-device" content="pc,mobile" />  
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <title>Get 5 free rides with bluegogo!</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+
+    <section id="Numtest" style="display:none" class="Numtest">
+    <!-- 手机号验证页 -->
+        <div class="numtestMain">
+            <div class="shadow"></div>
+            <div class="form">
+            <!-- logo -->
+                <img src="img/icon2.png" alt=""/>
+                <p class="form_tit">Get 5 free rides when you register</p>
+            </div>
+        </div>
+        <div class="numMain">
+            <div class="numIpt">
+                <input type="text" class="numtest" placeholder="Please enter your email address" autofocus="autofocus" />
+            </div>
+
+            <button class="num_nest">Next</button>
+        </div>
+        <!-- 遮罩层 -->
+        <div class="covered">
+            <div class="coverbg"></div>
+            <div class="covered_main">
+                <h3>Email has been taken</h3>
+                <p class="cover_desc">Register with another one,or download bluegogo
+                App and start riding.</p>
+                <button class="cover_download">Download</button>
+            </div>
+        </div>
+    </section>
+    <section style="display:none" id="code" class="code">
+        <!-- 验证码验证页 -->
+            <div class="numtestMain">
+                <div class="shadow"></div>
+                <div class="form">
+                <!-- logo -->
+                    <img src="img/icon2.png" alt="">
+                    <p class="form_tit">Get 5 free rides when you register</p>
+                </div>
+            </div>
+        <!-- 验证码     -->
+        <div class="numMain">
+
+            <div class="code_contain">
+                    <div class="code_ipt">
+                        <input type="text" placeholder="Please enter verification code" class="codenext" autofocus="autofocus" />
+                    </div>
+                    <div class="code_get">
+                        <span class="getcode">send</span>
+                    </div>
+            </div>
+            <button class="code_nest">Next</button>
+        </div>
+    </section>
+    <section id="password" style="display:none" class="password">
+    <!-- 设置密码页 -->
+    <!-- 验证码验证页 -->
+            <div class="numtestMain">
+                <div class="shadow"></div>
+                <div class="form">
+                <!-- logo -->
+                    <img src="img/icon2.png" alt="">
+                    <p class="form_tit">Get 5 free rides when you register</p>
+                </div>
+            </div>
+            <!-- 设置密码 -->
+            <div class="numMain">
+                    <div class="numIpt">
+                        <input type="password" class="pstest" placeholder="Please enter a 6-16 digits password" autofocus="autofocus" />
+                    </div>
+
+            <button class="pass_nest">Next</button>
+        </div>
+
+    </section>
+    <section id="loginSuccess" style="display:none" class="loginSuccess">
+    <!-- 注册成功页 -->
+            <div class="lg_main">
+                <h2>Complete registration</h2>
+                <p class="lg_youhui">5 free rides has been added to ypur account,</p>
+                <p>download the app and start riding now.</p>
+            </div>
+
+            <!-- 下载区域 -->
+            <div class="lg_download">
+                <div class="dl_main_right">
+                            Download
+                        </div>
+
+
+                    <!--<div class="dl_cover"></div>
+                    <div class="dl_main">
+                        <div class="dl_main_left">
+                            <ul>
+                                <li class="dl_logo"></li>
+                                <li>
+                                    <div class="logo_text">
+                                        <span></span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="dl_main_right">
+                            Download
+                        </div>
+                    </div>-->
+            </div>
+    </section>
+
+</body>
+<script src="js/plugin/rem.js"></script>
+<script src="js/plugin/zepto.js"></script>
+<script src="js/plugin/fastclick.js"></script>
+<script src="js/plugin/director.js"></script>
+<script src="js/plugin/md5-min.js"></script>
+<script src="js/module/numtest.js"></script>
+<script src="js/module/code.js"></script>
+<script src="js/module/password.js"></script>
+<script src="js/module/loginSuccess.js"></script>
+<script src="js/route.js"></script>
+<script src="js/index.js"></script>
+
+</html>

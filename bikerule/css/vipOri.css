@@ -1,0 +1,125 @@
+html, body {
+	
+}
+body{
+	width: 100%;
+	color: black;
+	text-align: center;
+	position: relative;
+	font-family: 'PingFangSC';
+	overflow-y:auto; 
+	margin-bottom:-4.266667rem;	
+}
+.yh_header{
+	width:100%;
+	height:	1.877333rem;
+	padding-top:0.853333rem;
+	background: #fff;
+	
+	border-bottom: 1px solid #e2e2e2;
+}
+.yh_main{
+	width:14.805333rem;
+	height:100%;
+	margin:0 auto;
+	position: relative;
+	text-align: left;
+
+}
+.yh_title{
+	text-align:center;
+	color:#0090ff;
+	line-height:1.877333rem;
+	font-size:0.768rem;
+	padding:0 0.213333rem;
+
+}
+/*返回按钮*/
+.yh_icon{
+	background:url('../img/icon/icon2.png') no-repeat center;
+	width:13px;
+	height:21px;
+	background-size:100% 100%;
+	margin:0.341333rem 0.554667rem;
+	margin-right:0;
+	cursor: pointer;
+	display: inline-block;
+	position: absolute;
+	left:0.277333rem;
+	top:0.170667rem;
+}
+/*规则表格*/
+.main{
+	width:100%;
+	height:auto;
+	padding-top:1.169067rem;
+	box-shadow: 0 1px 30px #eee inset;
+}
+.main_content{
+	
+	width:14.805333rem;
+	margin:0 auto;
+	height:auto;
+
+}
+.vip_disc{
+	margin-bottom:1.28rem;
+	overflow: hidden;
+
+}
+/*晋升条件 */
+.vip_condition{
+	width:100%;
+	text-align: center;
+	height:auto;
+	margin-bottom:1.28rem;
+}
+.vip_con_tit{
+	color:#2d2d2d;
+	font-size:0.682667rem;
+	font-weight: 600;
+	float:left;
+	margin-bottom:0.32rem;
+}
+.vip_list {
+	clear:both;
+	box-sizing: border-box;
+	border:0.042667rem solid #d9d9d9;
+}
+.vip_list li{
+	font-size:0.554667rem;
+	color:#555;
+	box-sizing: border-box;
+	height:1.169067rem;
+	line-height: 1.169067rem;
+	display: flex;
+	border-bottom: 0.042667rem solid #d9d9d9; 
+}
+.vip_list li span:first-child{
+	display: inline-block;
+	width:3.84rem;
+	height:1.169067rem;
+	text-align: center;
+}
+.vip_list li span:last-child{
+	width:12.117333rem;
+	height:1.169067rem;
+	text-align: center;
+
+}
+.vip_list li.active:first-child{
+
+	border-bottom: 0.042667rem solid #d9d9d9;
+	background:#f5f5f5;
+}
+/*底部详细说明*/
+.vip_disc_text{
+	width:100%;
+	font-size:0.597333rem;
+	text-align: left;
+	color:#555;
+	margin-bottom: 4.266667rem
+}
+.vip_disc_text li{
+	margin-bottom:0.810667rem;
+}

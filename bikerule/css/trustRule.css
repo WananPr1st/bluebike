@@ -1,0 +1,157 @@
+html, body {
+	height: 100%;
+}
+body{
+	height: 100%;
+	width: 100%;
+	color: black;
+	text-align: center;
+	position: relative;
+	font-family: 'PingFangSC';
+	overflow-y:auto; 
+
+}
+em{
+	font-style:normal;
+	color:black;
+}
+/*app留白*/
+.mobelHead{
+	width:100%;
+	height:2.773333rem;
+}
+.yh_header{
+	width:100%;
+	height:	1.877333rem;
+	padding-top:0.853333rem;
+	background: #fff;
+	border-bottom: 1px solid #e2e2e2;
+}
+.yh_main{
+	width:14.805333rem;
+	height:100%;
+	margin:0 auto;
+	position: relative;
+	text-align: left;
+
+}
+.yh_title{
+	text-align:center;
+	color:#0090ff;
+	line-height:1.877333rem;
+	font-size:0.768rem;
+	padding:0 0.213333rem;
+
+}
+/*返回按钮*/
+.yh_icon{
+	background:url('../img/icon/icon2.png') no-repeat center;
+	width:13px;
+	height:21px;
+	background-size:100% 100%;
+	margin:0.341333rem 0.554667rem;
+	margin-right:0;
+	cursor: pointer;
+	display: inline-block;
+	position: absolute;
+	left:0.277333rem;
+	top:0.170667rem;
+}
+/*信用规则*/
+.tr_main{
+	width:100%;
+	padding-top:0.586667rem;
+}
+.tr_main_content{
+	width:14.805333rem;
+	height:auto;
+	margin:0 auto;
+}
+.tr_main_list ul:first-child{
+	border:1px solid #d9d9d9;
+	border-bottom:none;
+}
+.tr_main_list ul:last-child{
+	border:1px solid #d9d9d9;
+	border-top:none;
+}
+.tr_main_list ul li{
+	text-align: left;
+	color:#555;
+	box-sizing: border-box;
+	height:1.169067rem;
+	line-height: 1.169067rem;
+
+	border-bottom: 0.042667rem solid #d9d9d9; 
+}
+.tr_main_list ul li:first-child{
+	border-bottom: 0.042667rem solid #d9d9d9;
+	background:#f5f5f5;
+}
+.tr_main_list ul:last-child li:last-child{
+	border:none;
+}
+/*加分项*/
+.tr_main_list li:first-child span{
+	font-size:0.554667rem;
+}
+.tr_main_list li span{
+	font-size:0.533333rem;
+	display: inline-block;
+}
+.tr_main_list li span:first-child{
+	float: left;
+	width:88%;
+	height:1.169067rem;
+	text-align: left;
+	white-space: nowrap;
+}
+.tr_main_list li span:last-child{
+	width:12%;
+	height:1.169067rem;
+	text-align: center;
+	float:right;
+}
+/*列表下规则明细*/
+
+.tru_disc{
+	width:14.805333rem;
+	margin:0 auto;
+	margin-top:0.64rem;
+}
+.tru_disc_list li{
+	font-size:0.554667rem;
+	text-align: left;
+	margin-bottom:0.810667rem;
+	color:#555;
+}
+.tru_disc_list li:last-child{
+	margin:0;
+}
+/*加减分项详解*/
+.tru_grade{
+	width:14.805333rem;
+	height:auto;
+	padding-top:1.6rem;
+	margin:0 auto;
+}
+.tru_grade p{
+	font-size:0.576rem;
+	float:left;
+	margin-bottom: 0.810667rem;
+	font-weight: 600;
+	
+}
+.add_grade{
+	margin-bottom:1.706667rem;
+}
+.add_grade ul{
+	clear:both;
+	font-size:0.554667rem;
+	text-align: left;
+}
+.add_grade ul li{
+	margin-bottom:0.426667rem;
+	line-height:0.810667rem;
+	color:#555;
+}

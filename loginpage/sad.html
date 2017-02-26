@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>邀请您体验</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/invite_login.css">
+</head>
+<body>
+<input type="text" id="ipt">
+<button id="btn">search</button>
+</body>
+
+<script src="js/plugin/zepto.js"></script>
+<script>
+	window.onload = function(){
+			$('#btn').click(function(){
+						var val = $('#ipt').val();
+				var script = document.createElement('script');
+				script.src = "https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=123&sugmode=2&json=1&p=3&sid=1450_19034_21108_17001_21263_21554&req=2&bs=123&pbs=123&csor=3&pwd=123&cb=jQuery110206236178173810714_1482400985259&_=1482400985272"
+				document.body.appendChild(script);
+
+	})
+			function jQuery110206236178173810714_1482400985259(res){
+				console.log(res)
+			}
+	}
+
+</script>
+</html>

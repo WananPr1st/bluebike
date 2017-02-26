@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>	
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="windows-Target" contect="_top" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="applicable-device" content="pc,mobile" />  
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+	<title>My bluegogo ride</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+	<!-- map -->
+	<div class="map" id="map"></div>
+
+	<!-- ride time -->
+	<div class="logotime">
+		<div class="logotimebg"></div>
+		<div class="logotimeContent">
+			<p>
+				<span></span>
+			</p>
+			<p>
+				<span class="logotime_date"></span>
+				<span class="logotime_hour"></span>
+			</p>
+		</div>
+	</div>
+
+	<!-- username and avatar -->
+	<div class="usericon"></div>
+	<p class="username"></p>	
+	
+	<!-- share message -->
+	<div class="shareMsg">
+		<div class="shareContain">
+			<div class="share_up">
+				<div class="share_up_left left">
+					<div class="tips left">
+						<em class="icon"></em>
+						<h3 id="distance"></h3>
+						<p>Distance (<span id="lengthUnit"></span>)</p>
+					</div>
+				</div>
+				<div class="share_up_right right">
+					<div class="tips right">
+						<em class="icon icon2"></em>
+						<h3 id="duration"></h3>
+						<p>Duration (min)</p>
+					</div>
+				</div>
+			</div>
+			<div class="share_down">
+				<div class="share_up_left left">
+					<div class="tips left">
+						<em class="icon icon3"></em>
+						<h3 id="calories"></h3>
+						<p>Calories (kCal)</p>
+					</div>
+				</div>
+				<div class="share_up_right right">
+					<div class="tips right">
+						<em class="icon icon4"></em>
+						<h3 id="carbon"></h3>
+						<p>Carbon emissions (g)</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- download -->
+	<div class="lg_download">
+		<div class="dl_cover"></div>
+		<div class="dl_main">
+			<div class="dl_main_left">
+				<ul>
+					<li class="dl_logo"></li>
+					<li>
+						<div class="logo_text">
+							<span></span>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="dl_main_right">Download</div>
+		</div>
+	</div>
+</body>
+<script src="js/rem.js"></script>
+<script src="js/zepto.js"></script>
+<!-- <script src="https://webapi.amap.com/maps?v=1.3&key=0c097b3cd963547325a9d168e281a832"></script> -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhqVJIMBV5nvUuIjc2qs4AsDohGE60U1k&sensor=false&language=en"></script>
+<script src="js/map.js"></script>
+</html>
